@@ -1,6 +1,10 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - tool/marp
+  - dev/markdown
+  - project/aaas-ai-planner
 sources:
   - "[[raw/2026-04-06-marp-claude-workflow]]"
 created: 2026-04-06

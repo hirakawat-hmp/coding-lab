@@ -1,6 +1,10 @@
 ---
+type: insight
+status: []
 tags:
-  - insight
+  - km/vault
+  - tool/claude-code
+  - infra/ci-cd
 sources:
   - "dotfiles/claude-code-config/vault 分離作業 (2026-04-06)"
 created: 2026-04-06

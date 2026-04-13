@@ -1,6 +1,9 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - ui/components
+  - dev/typescript
 sources:
   - "/Users/hdymacuser/Desktop/prompt-management-system/.serena/memories/shadcn_storybook_integration.md"
   - "/Users/hdymacuser/Desktop/prompt-management-system/.serena/memories/storybook_setup.md"

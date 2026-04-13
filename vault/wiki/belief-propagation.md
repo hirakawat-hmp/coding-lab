@@ -1,6 +1,9 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - stats/bayesian
+  - ai/llm
 sources:
   - "[[raw/2026-04-06-transformers-are-bayesian-networks]]"
 created: 2026-04-06

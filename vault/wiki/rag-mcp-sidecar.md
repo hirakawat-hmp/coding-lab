@@ -1,6 +1,11 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - ai/rag
+  - infra/gcp
+  - tool/qmd
+  - project/aaas-ai-planner
 sources:
   - "/Users/hdymacuser/Desktop/atl-document-generator/.serena/memories/design/rag-mcp-sidecar.md"
 created: 2026-04-06

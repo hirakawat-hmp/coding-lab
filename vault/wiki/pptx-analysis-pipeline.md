@@ -1,6 +1,11 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - ai/agent
+  - dev/python
+  - dev/typescript
+  - project/aaas-ai-planner
 sources:
   - "fastapi_summary_pptx_capability.md"
   - "pptx-import.md"

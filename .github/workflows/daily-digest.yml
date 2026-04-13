@@ -1,0 +1,71 @@
+name: Daily Knowledge Digest
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 00:00 UTC = 09:00 JST
+  workflow_dispatch: {} # 手動トリガー（テスト用）
+
+concurrency:
+  group: vault-update
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Claude Daily Digest
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          settings: |
+            {
+              "permissions": {
+                "allow": ["Bash", "WebSearch", "WebFetch", "Read", "Write", "Edit"]
+              }
+            }
+          claude_args: '--allowedTools "Bash,WebSearch,WebFetch,Read,Write,Edit"'
+          prompt: |
+            あなたはナレッジベースの日次ダイジェスト担当です。
+            CLAUDE.md の指示に従い、日次ダイジェストを実行してください。
+
+            手順:
+            1. plugins/vault/config/feeds.yml を読み込む
+            2. 各フィードの RSS を WebFetch で取得
+            3. 直近24時間以内の記事をフィルタ
+            4. 重要な記事（最大20件）を選別
+            5. 各記事について:
+               a. WebFetch で全文取得し vault/raw/ に保存
+               b. WebSearch で関連情報を追加調査
+               c. vault/wiki/ にページを作成（適切なタグ付き、既存ページとの相互リンク）
+            6. vault/newsletters/ に今日の日付で日次ニュースレターを作成（全トピック集約）
+            7. vault/index.md を更新
+            8. vault/log.md に記録
+
+            記事が見つからなかった場合は、何もコミットせず終了してください。
+
+      - name: Auto-merge Claude's branch
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CURRENT_BRANCH=$(git branch --show-current)
+          if [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "Merging branch $CURRENT_BRANCH into main via API..."
+            gh api repos/${{ github.repository }}/merges \
+              -f base=main \
+              -f head="$CURRENT_BRANCH" \
+              -f commit_message="auto-merge: daily digest $(date +%Y-%m-%d)"
+            echo "Deleting merged branch..."
+            gh api repos/${{ github.repository }}/git/refs/heads/"$CURRENT_BRANCH" -X DELETE || true
+          else
+            echo "No branch change detected, skipping merge."
+          fi

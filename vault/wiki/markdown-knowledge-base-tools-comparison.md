@@ -1,6 +1,10 @@
 ---
+type: comparison
+status: []
 tags:
-  - comparison
+  - km/vault
+  - km/obsidian
+  - km/markdown
 sources:
   - "[[raw/2026-04-07-markdown-knowledge-base-tools]]"
 created: 2026-04-07

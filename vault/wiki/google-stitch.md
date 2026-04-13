@@ -1,6 +1,9 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - tool/google-stitch
+  - design/system
 sources:
   - "[[raw/2026-04-07-design-md-research.md]]"
 created: 2026-04-07

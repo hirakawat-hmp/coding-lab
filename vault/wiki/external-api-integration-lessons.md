@@ -1,6 +1,9 @@
 ---
+type: insight
+status: []
 tags:
-  - insight
+  - dev/typescript
+  - dev/python
 sources:
   - "/Users/hdymacuser/Desktop/prompt-management-system/.serena/memories/kie-api-implementation-lessons.md"
 created: 2026-04-06

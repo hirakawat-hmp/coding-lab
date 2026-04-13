@@ -1,0 +1,59 @@
+name: Research via Claude
+
+on:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [opened]
+
+concurrency:
+  group: vault-update
+  cancel-in-progress: false
+
+jobs:
+  research:
+    if: |
+      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude') && github.event.issue.user.type != 'Bot') ||
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude') && github.event.comment.user.type != 'Bot')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Claude Research
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          settings: |
+            {
+              "permissions": {
+                "allow": ["Bash", "WebSearch", "WebFetch", "Read", "Write", "Edit"]
+              }
+            }
+          claude_args: '--allowedTools "Bash,WebSearch,WebFetch,Read,Write,Edit"'
+
+      - name: Auto-merge Claude's branch
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CURRENT_BRANCH=$(git branch --show-current)
+          if [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "Merging branch $CURRENT_BRANCH into main via API..."
+            gh api repos/${{ github.repository }}/merges \
+              -f base=main \
+              -f head="$CURRENT_BRANCH" \
+              -f commit_message="auto-merge: research from issue #${{ github.event.issue.number }}"
+            echo "Deleting merged branch..."
+            gh api repos/${{ github.repository }}/git/refs/heads/"$CURRENT_BRANCH" -X DELETE || true
+          else
+            echo "No branch change detected, skipping merge."
+          fi

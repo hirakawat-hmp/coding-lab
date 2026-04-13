@@ -1,6 +1,10 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - tool/pptagent
+  - dev/python
+  - project/aaas-ai-planner
 sources:
   - "[[raw/2026-04-06-pptagent]]"
 created: 2026-04-06

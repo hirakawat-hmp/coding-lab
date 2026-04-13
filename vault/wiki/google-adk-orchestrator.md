@@ -1,6 +1,12 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - framework/adk
+  - ai/agent
+  - dev/python
+  - infra/gcp
+  - project/aaas-ai-planner
 sources:
   - "adk-orchestrator.md"
 created: 2026-04-06

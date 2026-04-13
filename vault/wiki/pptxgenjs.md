@@ -1,6 +1,10 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - tool/pptxgenjs
+  - dev/typescript
+  - project/aaas-ai-planner
 sources:
   - "[[raw/2026-04-06-claude-pptx-skill]]"
   - "[[raw/2026-04-06-ai-pptx-landscape]]"

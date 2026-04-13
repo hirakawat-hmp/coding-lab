@@ -1,6 +1,10 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - design/system
+  - dev/markdown
+  - tool/claude-code
 sources:
   - "[[raw/2026-04-07-design-md-research.md]]"
 created: 2026-04-07

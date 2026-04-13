@@ -1,6 +1,10 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - tool/rtk
+  - tool/claude-code
+  - dev/rust
 sources:
   - "[[raw/2026-04-06-claude-code-hooks-impl]]"
 created: 2026-04-06

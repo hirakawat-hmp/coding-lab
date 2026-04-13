@@ -1,6 +1,11 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - framework/mastra
+  - ai/agent
+  - dev/typescript
+  - project/aaas-ai-planner
 sources:
   - "/Users/hdymacuser/Desktop/prompt-management-system/.serena/memories/mastra_patterns.md"
 created: 2026-04-06

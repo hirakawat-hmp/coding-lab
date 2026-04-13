@@ -1,6 +1,9 @@
 ---
+type: insight
+status: []
 tags:
-  - insight
+  - tool/claude-code
+  - dev/bash
 sources:
   - "[[raw/2026-04-06-claude-code-hooks-docs]]"
   - "[[raw/2026-04-06-claude-code-hooks-impl]]"

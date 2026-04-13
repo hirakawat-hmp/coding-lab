@@ -1,6 +1,11 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - tool/presenton
+  - dev/typescript
+  - dev/python
+  - project/aaas-ai-planner
 sources:
   - "[[raw/2026-04-06-presenton]]"
 created: 2026-04-06

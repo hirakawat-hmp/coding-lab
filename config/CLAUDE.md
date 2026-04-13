@@ -11,4 +11,8 @@
 
 @/Users/hdymacuser/repos/coding-lab/vault/CLAUDE.md
 
+## Vault Plugin
+
+vault 操作用の skills, agents, scripts は ~/repos/coding-lab/plugins/vault/ にある。
+
 @RTK.md

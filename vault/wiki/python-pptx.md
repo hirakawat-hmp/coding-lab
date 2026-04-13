@@ -1,6 +1,10 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - tool/python-pptx
+  - dev/python
+  - project/aaas-ai-planner
 sources:
   - "[[raw/2026-04-06-ai-pptx-landscape]]"
   - "[[raw/2026-04-06-pptagent]]"

@@ -1,6 +1,10 @@
 ---
+type: how-to
+status: []
 tags:
-  - concept
+  - infra/gcp
+  - dev/python
+  - infra/docker
 sources:
   - "/Users/hdymacuser/Desktop/main/2026年/1月/sql-agent/.serena/memories/docker_deployment_plan.md"
   - "/Users/hdymacuser/Desktop/tele-digi-cvsimulator/.serena/memories/infrastructure_and_deployment.md"

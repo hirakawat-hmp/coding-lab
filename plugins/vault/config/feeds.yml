@@ -1,0 +1,33 @@
+# Knowledge Vault — RSS Feed Sources
+# カテゴリ別に整理。Claude が日次で巡回する。
+
+feeds:
+  tech:
+    - name: "Hacker News (Top)"
+      url: "https://hnrss.org/frontpage"
+      language: "en"
+    - name: "Publickey"
+      url: "https://www.publickey1.jp/atom.xml"
+      language: "ja"
+    - name: "Zenn Trending"
+      url: "https://zenn.dev/feed"
+      language: "ja"
+
+  ai:
+    - name: "Anthropic Blog"
+      url: "https://www.anthropic.com/feed.xml"
+      language: "en"
+    - name: "OpenAI Blog"
+      url: "https://openai.com/blog/rss.xml"
+      language: "en"
+
+  cloud:
+    - name: "Google Cloud Blog"
+      url: "https://cloud.google.com/blog/feed"
+      language: "en"
+
+# 設定
+settings:
+  max_articles_per_feed: 5
+  max_total_articles: 20
+  lookback_hours: 24

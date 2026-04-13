@@ -1,6 +1,8 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - tool/claude-code
 sources:
   - "[[raw/2026-04-06-claude-code-hooks-docs]]"
   - "[[raw/2026-04-06-claude-code-hooks-impl]]"

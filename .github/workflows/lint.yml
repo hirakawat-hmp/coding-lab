@@ -1,0 +1,66 @@
+name: Weekly Vault Lint
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # 毎週日曜 00:00 UTC = 09:00 JST
+  workflow_dispatch: {}
+
+concurrency:
+  group: vault-update
+  cancel-in-progress: false
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Claude Vault Lint
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          settings: |
+            {
+              "permissions": {
+                "allow": ["Bash", "Read", "Write", "Edit"]
+              }
+            }
+          claude_args: '--allowedTools "Bash,Read,Write,Edit"'
+          prompt: |
+            vault の健全性チェックを実行してください。
+            CLAUDE.md の指示に従い、以下を確認・修正:
+
+            1. まず plugins/vault/scripts/vault-cli.py lint を実行して機械的な問題を検出
+            2. 壊れたリンクを修正
+            3. 孤立ページに関連ページからのリンクを追加
+            4. index.md に未登録のページを追加
+            5. 複数ページ間の矛盾する記述を検出し修正
+            6. 欠けている相互リンクを追加
+            7. vault/log.md に記録
+
+            修正がなければ何もコミットせず終了。
+
+      - name: Auto-merge Claude's branch
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CURRENT_BRANCH=$(git branch --show-current)
+          if [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "Merging branch $CURRENT_BRANCH into main via API..."
+            gh api repos/${{ github.repository }}/merges \
+              -f base=main \
+              -f head="$CURRENT_BRANCH" \
+              -f commit_message="auto-merge: weekly vault lint"
+            echo "Deleting merged branch..."
+            gh api repos/${{ github.repository }}/git/refs/heads/"$CURRENT_BRANCH" -X DELETE || true
+          else
+            echo "No branch change detected, skipping merge."
+          fi

@@ -1,6 +1,9 @@
 ---
+type: insight
+status: []
 tags:
-  - source
+  - ai/llm
+  - stats/bayesian
 sources:
   - "[[raw/2026-04-06-transformers-are-bayesian-networks]]"
 created: 2026-04-06

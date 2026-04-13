@@ -1,6 +1,9 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - design/system
+  - dev/markdown
 sources:
   - "[[raw/2026-04-07-design-md-research.md]]"
 created: 2026-04-07

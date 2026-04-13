@@ -1,6 +1,9 @@
 ---
+type: insight
+status: []
 tags:
-  - source
+  - stats/optimization
+  - dev/rust
 sources:
   - "santa2025_architecture.md"
 created: 2026-04-06

@@ -1,6 +1,9 @@
 ---
+type: comparison
+status: []
 tags:
-  - comparison
+  - ui/visualization
+  - ai/agent
 sources:
   - "chart-mcp-comparison.md"
 created: 2026-04-06

@@ -1,0 +1,7 @@
+{
+  "name": "coding-lab",
+  "version": "1.0.0",
+  "description": "Coding AI lab — personal knowledge base, dev tools, and Claude Code configuration.",
+  "skills": "../plugins/vault/skills/",
+  "agents": "../plugins/vault/agents/"
+}

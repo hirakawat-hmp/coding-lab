@@ -1,6 +1,11 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - stats/mmm
+  - stats/bayesian
+  - dev/python
+  - ai/eval
 sources:
   - "parameter_recovery_implementation_plan.md"
   - "parameter_recovery_validation_implementation.md"

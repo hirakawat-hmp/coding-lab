@@ -1,6 +1,11 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - infra/gcp
+  - dev/typescript
+  - dev/python
+  - project/aaas-ai-planner
 sources:
   - "/Users/hdymacuser/Desktop/tele-digi-cvsimulator/.serena/memories/unified_storage_architecture.md"
   - "/Users/hdymacuser/Desktop/tele-digi-cvsimulator/.serena/memories/firestore_unification_plan.md"

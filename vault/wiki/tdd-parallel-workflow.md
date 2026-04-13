@@ -1,6 +1,10 @@
 ---
+type: how-to
+status: []
 tags:
-  - insight
+  - dev/typescript
+  - ai/agent
+  - tool/claude-code
 sources:
   - "/Users/hdymacuser/Desktop/feederrrr/.serena/memories/development_workflow.md"
 created: 2026-04-06

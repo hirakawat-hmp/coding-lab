@@ -1,6 +1,12 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - framework/mastra
+  - ai/agent
+  - tool/claude-code
+  - dev/typescript
+  - project/aaas-ai-planner
 sources:
   - "/Users/hdymacuser/Desktop/main/abk-project/abk-agent/.serena/memories/system_architecture.md"
 created: 2026-04-06

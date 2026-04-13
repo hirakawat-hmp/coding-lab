@@ -1,6 +1,10 @@
 ---
+type: concept
+status: []
 tags:
-  - source
+  - stats/mmm
+  - dev/python
+  - ai/eval
 sources:
   - "intermediate_kpi_implementation_plan.md"
   - "implementation_qa_summary.md"

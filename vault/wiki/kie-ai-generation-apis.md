@@ -1,6 +1,9 @@
 ---
+type: entity
+status: []
 tags:
-  - entity
+  - ai/llm
+  - dev/typescript
 sources:
   - "ai_generation_apis_overview.md"
 created: 2026-04-06

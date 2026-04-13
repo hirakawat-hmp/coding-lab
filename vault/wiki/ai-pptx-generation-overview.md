@@ -1,6 +1,11 @@
 ---
+type: concept
+status: []
 tags:
-  - concept
+  - ai/agent
+  - dev/typescript
+  - dev/python
+  - project/aaas-ai-planner
 sources:
   - "[[raw/2026-04-06-claude-pptx-skill]]"
   - "[[raw/2026-04-06-presenton]]"
