@@ -50,6 +50,12 @@ ok "settings linked"
 ln -sf "$ROOT/config/CLAUDE.md" ~/.claude/CLAUDE.md
 ok "global CLAUDE.md linked"
 
+# Output styles
+mkdir -p ~/.claude/output-styles
+for f in "$ROOT"/config/output-styles/*.md; do
+  [ -f "$f" ] && ln -sf "$f" ~/.claude/output-styles/"$(basename "$f")"
+done
+ok "output-styles linked"
 
 # --- Phase 2: MCP servers ---
 if command -v claude &>/dev/null && command -v jq &>/dev/null; then
