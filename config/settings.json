@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7",
+      "mcp__serena",
+      "mcp__sequential-thinking",
+      "mcp__pencil"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "hooks": {},
+  "enabledPlugins": {
+    "life-manager@life-marketplace": true,
+    "frontend-design@claude-code-plugins": false,
+    "cloud-infrastructure@claude-code-workflows": false,
+    "ui-design@claude-code-workflows": false,
+    "agent-development@context-engineering-marketplace": false,
+    "planning-with-files@planning-with-files": false,
+    "claude-md-management@claude-plugins-official": false,
+    "skill-creator@claude-plugins-official": false,
+    "plugin-dev@claude-code-plugins": true,
+    "pyright-lsp@claude-plugins-official": true
+  },
+  "alwaysThinkingEnabled": false
+}
