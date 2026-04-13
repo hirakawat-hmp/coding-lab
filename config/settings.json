@@ -3,7 +3,8 @@
     "allow": [
       "mcp__serena",
       "mcp__sequential-thinking",
-      "mcp__pencil"
+      "mcp__pencil",
+      "mcp__qmd"
     ]
   },
   "enableAllProjectMcpServers": true,

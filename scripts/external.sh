@@ -55,48 +55,56 @@ detect_skill_path() {
   return 1
 }
 
+check_python_deps() {
+  python3 -c "import yaml" 2>/dev/null || { err "PyYAML is required: pip install pyyaml"; exit 1; }
+}
+
 add_to_manifest() {
   local name="$1" repo="$2" skill_path="$3"
-  # Use python for YAML manipulation since yq may not be available
-  python3 -c "
+  check_python_deps
+  python3 - "$name" "$repo" "$skill_path" "$MANIFEST" <<'PYEOF'
 import yaml, sys
-with open('$MANIFEST', 'r') as f:
+name, repo, skill_path, manifest = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
+with open(manifest, 'r') as f:
     data = yaml.safe_load(f) or {}
 entries = data.get('entries', []) or []
-# Check duplicate
 for e in entries:
-    if e.get('name') == '$name':
-        print('Already registered: $name', file=sys.stderr)
+    if e.get('name') == name:
+        print(f'Already registered: {name}', file=sys.stderr)
         sys.exit(1)
-entries.append({'name': '$name', 'repo': '$repo', 'type': 'skill', 'path': '$skill_path'})
+entries.append({'name': name, 'repo': repo, 'type': 'skill', 'path': skill_path})
 data['entries'] = entries
-with open('$MANIFEST', 'w') as f:
+with open(manifest, 'w') as f:
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
-"
+PYEOF
 }
 
 remove_from_manifest() {
   local name="$1"
-  python3 -c "
-import yaml
-with open('$MANIFEST', 'r') as f:
+  check_python_deps
+  python3 - "$name" "$MANIFEST" <<'PYEOF'
+import yaml, sys
+name, manifest = sys.argv[1], sys.argv[2]
+with open(manifest, 'r') as f:
     data = yaml.safe_load(f) or {}
 entries = data.get('entries', []) or []
-data['entries'] = [e for e in entries if e.get('name') != '$name']
-with open('$MANIFEST', 'w') as f:
+data['entries'] = [e for e in entries if e.get('name') != name]
+with open(manifest, 'w') as f:
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
-"
+PYEOF
 }
 
 get_entries() {
-  python3 -c "
-import yaml, json
-with open('$MANIFEST', 'r') as f:
+  check_python_deps
+  python3 - "$MANIFEST" <<'PYEOF'
+import yaml, json, sys
+manifest = sys.argv[1]
+with open(manifest, 'r') as f:
     data = yaml.safe_load(f) or {}
 entries = data.get('entries', []) or []
 for e in entries:
     print(json.dumps(e))
-"
+PYEOF
 }
 
 create_symlink() {
@@ -174,15 +182,17 @@ cmd_remove() {
 
   # Get skill path before removing from manifest
   local skill_path
-  skill_path=$(python3 -c "
-import yaml
-with open('$MANIFEST', 'r') as f:
+  skill_path=$(python3 - "$name" "$MANIFEST" <<'PYEOF'
+import yaml, sys
+name, manifest = sys.argv[1], sys.argv[2]
+with open(manifest, 'r') as f:
     data = yaml.safe_load(f) or {}
 for e in data.get('entries', []) or []:
-    if e.get('name') == '$name':
+    if e.get('name') == name:
         print(e.get('path', ''))
         break
-")
+PYEOF
+)
 
   if [ -n "$skill_path" ]; then
     local skill_name

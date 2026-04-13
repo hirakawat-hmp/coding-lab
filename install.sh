@@ -90,6 +90,7 @@ if command -v claude &>/dev/null; then
     "ChromeDevTools/chrome-devtools-mcp"
     "muratcankoylan/Agent-Skills-for-Context-Engineering"
     "K-Dense-AI/claude-scientific-skills"
+    "upstash/context7"
   )
   for repo in "${MARKETPLACES[@]}"; do
     claude plugin marketplace add "$repo" 2>/dev/null && ok "marketplace: $repo" || warn "marketplace already registered or failed: $repo"
