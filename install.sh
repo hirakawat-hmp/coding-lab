@@ -95,22 +95,6 @@ if command -v claude &>/dev/null; then
     claude plugin marketplace add "$repo" 2>/dev/null && ok "marketplace: $repo" || warn "marketplace already registered or failed: $repo"
   done
 
-  info "Installing enabled plugins..."
-
-  PLUGINS=(
-    "plugin-dev@claude-code-plugins"
-    "frontend-design@claude-code-plugins"
-    "cloud-infrastructure@claude-code-workflows"
-    "ui-design@claude-code-workflows"
-    "agent-development@context-engineering-marketplace"
-    "planning-with-files@planning-with-files"
-    "claude-md-management@claude-plugins-official"
-    "skill-creator@claude-plugins-official"
-  )
-  for plugin in "${PLUGINS[@]}"; do
-    claude plugin install "$plugin" 2>/dev/null && ok "plugin: $plugin" || warn "plugin already installed or failed: $plugin"
-  done
-
 else
   warn "Claude Code not found. Install it first, then run this script again."
 fi

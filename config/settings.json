@@ -21,18 +21,7 @@
       }
     ]
   },
-  "enabledPlugins": {
-    "life-manager@life-marketplace": true,
-    "frontend-design@claude-code-plugins": true,
-    "cloud-infrastructure@claude-code-workflows": true,
-    "ui-design@claude-code-workflows": true,
-    "agent-development@context-engineering-marketplace": true,
-    "planning-with-files@planning-with-files": true,
-    "claude-md-management@claude-plugins-official": true,
-    "skill-creator@claude-plugins-official": true,
-    "plugin-dev@claude-code-plugins": true,
-    "pyright-lsp@claude-plugins-official": true
-  },
+  "enabledPlugins": {},
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
       "source": {

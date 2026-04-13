@@ -1,0 +1,5 @@
+entries:
+- name: prompt-review
+  repo: tokoroten/prompt-review
+  type: skill
+  path: .claude/skills/prompt-review

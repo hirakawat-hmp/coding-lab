@@ -9,3 +9,5 @@ vault/.obsidian/themes/
 vault/Clippings/
 .DS_Store
 .serena/
+plugins/external/*/
+!plugins/external/manifest.yml
