@@ -1,7 +1,6 @@
 {
   "permissions": {
     "allow": [
-      "mcp__context7",
       "mcp__serena",
       "mcp__sequential-thinking",
       "mcp__pencil"
@@ -21,7 +20,9 @@
       }
     ]
   },
-  "enabledPlugins": {},
+  "enabledPlugins": {
+    "context7-plugin@context7-marketplace": true
+  },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
       "source": {
@@ -75,6 +76,12 @@
       "source": {
         "source": "github",
         "repo": "K-Dense-AI/claude-scientific-skills"
+      }
+    },
+    "context7-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "upstash/context7"
       }
     }
   },
