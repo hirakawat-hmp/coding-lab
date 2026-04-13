@@ -50,8 +50,6 @@ ok "settings linked"
 ln -sf "$ROOT/config/CLAUDE.md" ~/.claude/CLAUDE.md
 ok "global CLAUDE.md linked"
 
-ln -sf "$ROOT/config/RTK.md" ~/.claude/RTK.md
-ok "RTK.md linked"
 
 # --- Phase 2: MCP servers ---
 if command -v claude &>/dev/null && command -v jq &>/dev/null; then
