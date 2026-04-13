@@ -10,8 +10,6 @@
 
 Types: feat, fix, refactor, docs, test, chore, perf, ci
 
-Note: Attribution disabled globally via ~/.claude/settings.json.
-
 ## VCS
 
 - Use jj (Jujutsu) when available, fall back to git otherwise

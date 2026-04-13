@@ -59,6 +59,8 @@ vault のルートは `${CLAUDE_PLUGIN_ROOT}` にある。
 
 ```markdown
 ---
+type: <type>
+status: []
 tags:
   - <tag>
 sources:

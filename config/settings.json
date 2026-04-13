@@ -3,8 +3,7 @@
     "allow": [
       "mcp__serena",
       "mcp__sequential-thinking",
-      "mcp__pencil",
-      "mcp__qmd"
+      "mcp__pencil"
     ]
   },
   "enableAllProjectMcpServers": true,
@@ -22,7 +21,8 @@
     ]
   },
   "enabledPlugins": {
-    "context7-plugin@context7-marketplace": true
+    "context7-plugin@context7-marketplace": true,
+    "pyright-lsp@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {

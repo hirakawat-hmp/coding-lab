@@ -13,8 +13,8 @@ concurrency:
 jobs:
   research:
     if: |
-      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude') && github.event.issue.user.type != 'Bot') ||
-      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude') && github.event.comment.user.type != 'Bot')
+      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude-research') && github.event.issue.user.type != 'Bot') ||
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude-research') && github.event.comment.user.type != 'Bot')
     runs-on: ubuntu-latest
     permissions:
       contents: write

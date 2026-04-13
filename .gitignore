@@ -9,5 +9,10 @@ vault/.obsidian/themes/
 vault/Clippings/
 .DS_Store
 .serena/
+__pycache__/
+*.pyc
+.env
+.env.*
+node_modules/
 plugins/external/*/
 !plugins/external/manifest.yml
