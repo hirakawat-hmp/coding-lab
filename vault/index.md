@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (28)
+## Entity (31)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -33,8 +33,11 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/cloudflare-cf-cli]] — Cloudflare 全製品を統合する新 CLI「cf」と Local Explorer
 - [[wiki/snapstate]] — AI エージェントワークフローの永続状態管理（チェックポイント・再開・リプレイ）
 - [[wiki/aws-frontier-agents]] — AWS DevOps Agent / Security Agent（GA）の機能と SRE への影響
+- [[wiki/microsoft-foundry-local]] — インストーラで配布できる Microsoft のローカル AI ランタイム
+- [[wiki/bun-headless-browser]] — Bun v1.3.12 のヘッドレスブラウザ操作機能
+- [[wiki/claude-mythos]] — Anthropic のサイバーセキュリティ特化モデル（AISI 検証）
 
-## Concept (20)
+## Concept (22)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -56,6 +59,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/ai-math-revolution]] — AlphaEvolve・LLM による数学研究の革命（2026 年）
 - [[wiki/platform-engineering]] — SRE を「努力」から「仕組み」へ変える Platform Engineering の概念と実践
 - [[wiki/claude-code-job-queue]] — ジョブキューと マネージャーエージェントによる Claude Code マルチセッション設計
+- [[wiki/skill-md-pattern]] — SKILL.md による Claude Code の折りたたみ式マニュアルパターン
+- [[wiki/rust-for-cpython]] — Python 3.16 への Rust 統合計画（CPython メモリ安全性向上）
 
 ## How-to (4)
 
@@ -71,7 +76,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (8)
+## Insight (10)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -81,6 +86,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/transformers-are-bayesian-networks]] — Transformer アーキテクチャとベイジアンネットワークの対応
 - [[wiki/wordpress-plugin-supply-chain-attack]] — WP プラグイン 30 本への一斉バックドア埋め込み事件から学ぶサプライチェーンリスク
 - [[wiki/lean-formal-verification-limits]] — Lean 形式検証済みコードにバグが見つかった事例と、検証の根本的限界
+- [[wiki/axios-cve-2026]] — axios CVSS 10.0 脆弱性（CVE-2026-40175）と評価信頼性論争
+- [[wiki/claude-code-harness-patterns]] — ソースコード流出から学ぶ Claude Code ハーネスパターン10選
 
 ## Comparison (3)
 

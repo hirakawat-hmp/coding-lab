@@ -1,5 +1,21 @@
 # Log
 
+## [2026-04-14] digest | 2026-04-14 daily digest (run 2)
+- RSS フィード 7 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, ITmedia AI+, OpenAI News）
+- 直近24時間の新着記事から7件を選別（既存ニュースレターへ追記、計20トピック）
+- `vault/tags.md` に新規タグ追加: `dev/javascript`
+- 新規 raw ファイル 7 件を保存（`vault/raw/2026-04-14-*.md`）
+- 新規 wiki ページ 7 件を作成:
+  - `vault/wiki/axios-cve-2026.md` — axios CVSS 10.0 脆弱性と信頼性論争（insight）
+  - `vault/wiki/microsoft-foundry-local.md` — Microsoft Foundry Local ローカル AI ランタイム（entity）
+  - `vault/wiki/bun-headless-browser.md` — Bun v1.3.12 ヘッドレスブラウザ自動化（entity）
+  - `vault/wiki/skill-md-pattern.md` — SKILL.md パターン・折りたたみ式マニュアル（concept）
+  - `vault/wiki/rust-for-cpython.md` — Python 3.16 への Rust 統合計画（concept）
+  - `vault/wiki/claude-code-harness-patterns.md` — ハーネスパターン10選（insight）
+  - `vault/wiki/claude-mythos.md` — Claude Mythos セキュリティ特化モデル（entity）
+- `vault/newsletters/2026-04-14.md` にトピック14-20を追記（合計20トピック）
+- `vault/index.md` を更新（Entity 31、Concept 22、Insight 10）
+
 ## [2026-04-14] digest | 2026-04-14 daily digest
 - RSS フィード 6 本を巡回（Hacker News, Publickey, Zenn Trending, Anthropic Blog※, OpenAI Blog, Google Cloud Blog※）
   ※ Anthropic Blog は 404、Google Cloud Blog はエラーのため取得不可
