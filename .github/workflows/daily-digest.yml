@@ -51,6 +51,8 @@ jobs:
             7. vault/index.md を更新
             8. vault/log.md に記録
 
+            9. git add → git commit → git push origin main で変更をリモートに反映
+
             記事が見つからなかった場合は、何もコミットせず終了してください。
 
       - name: Auto-merge Claude's branch
