@@ -47,7 +47,9 @@ jobs:
                a. WebFetch で全文取得し vault/raw/ に保存
                b. WebSearch で関連情報を追加調査
                c. vault/wiki/ にページを作成（適切なタグ付き、既存ページとの相互リンク）
+               d. 記事の OGP 画像やサムネイル画像の URL があれば、wiki ページの冒頭（# タイトルの直後）に ![記事タイトル](画像URL) で埋め込む
             6. vault/newsletters/ に今日の日付で日次ニュースレターを作成（全トピック集約）
+               - 各トピックのセクション冒頭にも記事の画像があれば ![](画像URL) で埋め込む
             7. vault/index.md を更新
             8. vault/log.md に記録
 
