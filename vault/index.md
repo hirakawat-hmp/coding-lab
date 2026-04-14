@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (22)
+## Entity (28)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -27,8 +27,14 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/agentic-mme]] — マルチモーダル AI エージェントのプロセス検証ベンチマーク
 - [[wiki/officecli]] — AI エージェント向け Office 操作 CLI（Word / Excel / PowerPoint）
 - [[wiki/aionui]] — OfficeCLI ベースの自然言語 Office 操作デスクトップアプリ
+- [[wiki/n-day-bench]] — LLM が実世界の N-Day 脆弱性を発見する能力を評価するベンチマーク
+- [[wiki/gaia-local-ai-agent]] — AMD のローカルハードウェア上で動作するオープンソース AI エージェントフレームワーク
+- [[wiki/github-stacked-prs]] — 大規模変更を小さな PR チェーンに分割する GitHub ネイティブツール
+- [[wiki/cloudflare-cf-cli]] — Cloudflare 全製品を統合する新 CLI「cf」と Local Explorer
+- [[wiki/snapstate]] — AI エージェントワークフローの永続状態管理（チェックポイント・再開・リプレイ）
+- [[wiki/aws-frontier-agents]] — AWS DevOps Agent / Security Agent（GA）の機能と SRE への影響
 
-## Concept (17)
+## Concept (20)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -47,20 +53,25 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/shadcn-storybook-integration]] — shadcn/ui + Storybook による UI コンポーネント開発
 - [[wiki/token-warping]] — ViT トークンをワーピングして MLLM に視点変換推論を付与する手法
 - [[wiki/triattention]] — プリ-RoPE Q/K 集中性を利用した KV キャッシュ圧縮（6.3× 高速化）
+- [[wiki/ai-math-revolution]] — AlphaEvolve・LLM による数学研究の革命（2026 年）
+- [[wiki/platform-engineering]] — SRE を「努力」から「仕組み」へ変える Platform Engineering の概念と実践
+- [[wiki/claude-code-job-queue]] — ジョブキューと マネージャーエージェントによる Claude Code マルチセッション設計
 
-## How-to (3)
+## How-to (4)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
 - [[wiki/tdd-parallel-workflow]] — Claude Code subagent による探索・計画・実装の並列化
+- [[wiki/ingress-nginx-to-gateway-api]] — Ingress NGINX → Gateway API + Envoy Gateway 移行手順
 
-## Reference (3)
+## Reference (4)
 
 - [[wiki/claude-code-action-modes]] — Tag Mode と Agent Mode の詳細比較・移行ガイド
 - [[wiki/claude-code-action-tools]] — allowedTools と WebSearch/WebFetch の有効化方法
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
+- [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (6)
+## Insight (8)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -68,6 +79,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/kaggle-santa2025-optimization]] — Kaggle Santa 2025 最適化ソリューション
 - [[wiki/knowledge-vault-lessons]] — Knowledge Vault 構築で得たハマりどころと教訓
 - [[wiki/transformers-are-bayesian-networks]] — Transformer アーキテクチャとベイジアンネットワークの対応
+- [[wiki/wordpress-plugin-supply-chain-attack]] — WP プラグイン 30 本への一斉バックドア埋め込み事件から学ぶサプライチェーンリスク
+- [[wiki/lean-formal-verification-limits]] — Lean 形式検証済みコードにバグが見つかった事例と、検証の根本的限界
 
 ## Comparison (3)
 

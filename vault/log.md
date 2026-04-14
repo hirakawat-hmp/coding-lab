@@ -1,5 +1,29 @@
 # Log
 
+## [2026-04-14] digest | 2026-04-14 daily digest
+- RSS フィード 6 本を巡回（Hacker News, Publickey, Zenn Trending, Anthropic Blog※, OpenAI Blog, Google Cloud Blog※）
+  ※ Anthropic Blog は 404、Google Cloud Blog はエラーのため取得不可
+- 直近 24 時間以内の記事 13 件を選別（max_total_articles: 20）
+- `vault/tags.md` に新規タグを追加：
+  - `infra/cloudflare`、`infra/sre`、`security/web`、`security/supply-chain`
+- 新規 raw ファイル 13 件を保存（`vault/raw/2026-04-14-*.md`）
+- 新規 wiki ページ 13 件を作成:
+  - `vault/wiki/ai-math-revolution.md` — AlphaEvolve・LLM による数学研究の革命（concept）
+  - `vault/wiki/n-day-bench.md` — LLM N-Day 脆弱性発見ベンチマーク（entity）
+  - `vault/wiki/gaia-local-ai-agent.md` — AMD のローカル AI エージェントフレームワーク（entity）
+  - `vault/wiki/github-stacked-prs.md` — GitHub Stacked PRs ツール（entity）
+  - `vault/wiki/wordpress-plugin-supply-chain-attack.md` — WP プラグイン一斉バックドア事件（insight）
+  - `vault/wiki/cloudflare-cf-cli.md` — Cloudflare 統合 CLI「cf」と Local Explorer（entity）
+  - `vault/wiki/lean-formal-verification-limits.md` — Lean 形式検証の限界（insight）
+  - `vault/wiki/snapstate.md` — AI エージェント永続状態管理（entity）
+  - `vault/wiki/aws-service-retirement-2026.md` — AWS サービス終了計画（reference）
+  - `vault/wiki/aws-frontier-agents.md` — AWS DevOps/Security Agent GA（entity）
+  - `vault/wiki/platform-engineering.md` — Platform Engineering 概念（concept）
+  - `vault/wiki/ingress-nginx-to-gateway-api.md` — Ingress NGINX → Gateway API 移行（how-to）
+  - `vault/wiki/claude-code-job-queue.md` — Claude Code マルチセッション ジョブキュー（concept）
+- `vault/newsletters/2026-04-14.md` を作成（13 トピック集約）
+- `vault/index.md` を更新（Entity 28、Concept 20、How-to 4、Reference 4、Insight 8）
+
 ## [2026-04-14] ingest | OfficeCLI — AI エージェント向け Office 操作 CLI
 - Obsidian Clippings から OfficeCLI の GitHub README を取り込み
 - GitHub SKILL.md およびリリースノートから技術詳細を追加調査
