@@ -25,6 +25,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/happyhorse-1]] — 匿名の動画生成モデル（Elo 歴代 1 位、詐欺サイト多発・注意）
 - [[wiki/flux-2]] — Black Forest Labs の統合画像生成モデル FLUX.2（Klein 4B は Apache 2.0）
 - [[wiki/agentic-mme]] — マルチモーダル AI エージェントのプロセス検証ベンチマーク
+- [[wiki/officecli]] — AI エージェント向け Office 操作 CLI（Word / Excel / PowerPoint）
+- [[wiki/aionui]] — OfficeCLI ベースの自然言語 Office 操作デスクトップアプリ
 
 ## Concept (17)
 

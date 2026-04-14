@@ -1,5 +1,15 @@
 # Log
 
+## [2026-04-14] ingest | OfficeCLI — AI エージェント向け Office 操作 CLI
+- Obsidian Clippings から OfficeCLI の GitHub README を取り込み
+- GitHub SKILL.md およびリリースノートから技術詳細を追加調査
+- 新規 wiki ページ 2 件を作成:
+  - `vault/wiki/officecli.md` — OfficeCLI entity ページ（3層アーキテクチャ、コマンド体系、AI 連携、対応機能詳細）
+  - `vault/wiki/aionui.md` — AionUi entity ページ（OfficeCLI ベースの GUI デスクトップアプリ）
+- `vault/tags.md` に `tool/officecli` タグを追加
+- `vault/raw/2026-04-14-officecli.md` に元ソースを保存
+- `vault/index.md` を更新
+
 ## [2026-04-10] research | fujito 記事3本から技術要素ごとの解説 Wiki を作成
 - Issue #4 のリクエストに基づき、fujito 著の生成 AI ニュース記事 3 本を分析
 - 対象記事:
