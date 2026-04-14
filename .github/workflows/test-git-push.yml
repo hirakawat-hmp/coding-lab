@@ -1,0 +1,37 @@
+name: Test Git Push from Claude
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Claude Push Test
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          settings: |
+            {
+              "permissions": {
+                "allow": ["Bash", "Read", "Write"]
+              }
+            }
+          claude_args: '--allowedTools "Bash,Read,Write"'
+          show_full_output: true
+          prompt: |
+            これは git push のテストです。以下を実行してください:
+
+            1. vault/test-push.txt に現在の日時を書き込む
+            2. git add vault/test-push.txt
+            3. git commit -m "test: git push from claude-code-action"
+            4. git push origin main
+            5. 成功したか失敗したか、エラーメッセージを含めて報告する
