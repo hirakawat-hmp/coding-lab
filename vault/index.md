@@ -95,6 +95,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/markdown-knowledge-base-tools-comparison]] — Obsidian 代替ツールの比較
 - [[wiki/pptx-generation-comparison]] — PPTX 生成アプローチの4軸比較
 
+## Research Reports
+
 ## Decision
 
 ## Troubleshooting

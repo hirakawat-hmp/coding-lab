@@ -13,6 +13,7 @@ coding-lab/                   # git リポジトリルート
 └── vault/                    # Obsidian vault パス + ナレッジストア
     ├── wiki/                 # LLM が生成・保守するページ
     ├── newsletters/          # 日次ニュースレター
+    ├── research-reports/     # Issue 起点の調査レポート
     ├── raw/                  # 取得した元ソース（immutable）
     ├── assets/               # 画像等
     ├── index.md              # wiki 全ページのカタログ（カテゴリ別）
@@ -23,6 +24,7 @@ coding-lab/                   # git リポジトリルート
 
 - wiki ページ: `vault/wiki/ページ名.md`
 - ニュースレター: `vault/newsletters/YYYY-MM-DD.md`
+- 調査レポート: `vault/research-reports/YYYY-MM-DD-トピック名.md`
 - 画像: `vault/assets/`
 - 元ソース: `vault/raw/`
 - index, log: `vault/index.md`, `vault/log.md`

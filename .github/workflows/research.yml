@@ -47,16 +47,45 @@ jobs:
             1. Issue の本文・コメントからリサーチトピックを抽出
             2. WebSearch でトピックを調査（複数の検索クエリを試す）
             3. 重要なソースを WebFetch で取得し vault/raw/ に保存
-            4. vault/wiki/ にページを作成:
+            4. vault/wiki/ に個別の知識ページを作成:
                - ファイル名は英語 kebab-case、本文は日本語
                - 適切なタグ（vault/tags.md を参照）を付与
                - 記事の OGP 画像やサムネイル画像の URL があれば、wiki ページの冒頭（# タイトルの直後）に ![記事タイトル](画像URL) で埋め込む
+               - 根拠となるソース URL は sources フロントマターと本文中の両方に記載する
                - 関連する既存 wiki ページへ [[wiki/ページ名]] でリンク
                - 1つのトピックから複数ページ（要約、エンティティ、概念）を作成してよい
-            5. vault/index.md を更新
-            6. vault/log.md に記録
-            7. git add → git commit → git push origin main で変更をリモートに反映
-            8. Issue にコメントで結果を報告（作成したページ一覧と要約）
+            5. vault/research-reports/ に調査レポートを作成（全体を束ねる）:
+               - ファイル名: YYYY-MM-DD-トピック名.md（英語 kebab-case）
+               - type: research-report
+               - 各セクションに OGP 画像があれば埋め込む
+               - 根拠となるソース URL を各セクションに記載する
+               - 作成した wiki ページへ [[wiki/ページ名]] でリンク
+               - フォーマット:
+                 ```
+                 ---
+                 type: research-report
+                 status: []
+                 tags: [関連タグ]
+                 sources: [主要ソースURL]
+                 issue: "#番号"
+                 created: YYYY-MM-DD
+                 updated: YYYY-MM-DD
+                 ---
+                 # 調査: タイトル
+                 ## 要約
+                 2-3文の概要
+                 ## 調査結果
+                 ### 1. トピック
+                 ![](画像URL)
+                 要約。**ソース:** [タイトル](URL)
+                 詳細は [[wiki/ページ名]] を参照。
+                 ## 作成した wiki ページ
+                 - [[wiki/ページ名]] — 一行説明
+                 ```
+            6. vault/index.md を更新（wiki ページと Research Reports セクション両方）
+            7. vault/log.md に記録
+            8. git add → git commit → git push origin main で変更をリモートに反映
+            9. Issue にコメントで結果を報告（レポートへのリンクと作成したページ一覧）
 
       - name: Auto-merge Claude's branch
         if: success()
