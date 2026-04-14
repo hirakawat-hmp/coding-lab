@@ -12,19 +12,30 @@ feeds:
     - name: "Zenn Trending"
       url: "https://zenn.dev/feed"
       language: "ja"
+    - name: "Wired Japan"
+      url: "https://wired.jp/feed/rss"
+      language: "ja"
+    - name: "ITmedia AI+"
+      url: "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml"
+      language: "ja"
 
   ai:
-    - name: "Anthropic Blog"
-      url: "https://www.anthropic.com/feed.xml"
+    - name: "Hugging Face Daily Papers"
+      url: "https://rsshub.app/huggingface/daily-papers"
       language: "en"
-    - name: "OpenAI Blog"
-      url: "https://openai.com/blog/rss.xml"
+    - name: "OpenAI News"
+      url: "https://openai.com/news/rss.xml"
       language: "en"
 
   cloud:
     - name: "Google Cloud Blog"
       url: "https://cloud.google.com/blog/feed"
       language: "en"
+
+  3d:
+    - name: "3D人-3dnchu-"
+      url: "https://3dnchu.com/feed/"
+      language: "ja"
 
 # 設定
 settings:
