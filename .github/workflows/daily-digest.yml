@@ -29,10 +29,11 @@ jobs:
           settings: |
             {
               "permissions": {
-                "allow": ["Bash", "WebSearch", "WebFetch", "Read", "Write", "Edit"]
+                "allow": ["Bash", "WebSearch", "WebFetch", "Read", "Write", "Edit", "Glob", "Grep"]
               }
             }
-          claude_args: '--allowedTools "Bash,WebSearch,WebFetch,Read,Write,Edit"'
+          claude_args: '--allowedTools "Bash,WebSearch,WebFetch,Read,Write,Edit,Glob,Grep"'
+          show_full_output: true
           prompt: |
             あなたはナレッジベースの日次ダイジェスト担当です。
             CLAUDE.md の指示に従い、日次ダイジェストを実行してください。
