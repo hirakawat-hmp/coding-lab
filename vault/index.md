@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (31)
+## Entity (43)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -36,8 +36,20 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/microsoft-foundry-local]] — インストーラで配布できる Microsoft のローカル AI ランタイム
 - [[wiki/bun-headless-browser]] — Bun v1.3.12 のヘッドレスブラウザ操作機能
 - [[wiki/claude-mythos]] — Anthropic のサイバーセキュリティ特化モデル（AISI 検証）
+- [[wiki/davinci-resolve-photo]] — Blackmagic Design の写真専用カラーグレーディングページ（DaVinci Resolve 21）
+- [[wiki/claude-code-routines]] — Claude Code の自動実行 Routines 機能（スケジュール / API / GitHub トリガー）
+- [[wiki/jujutsu-jj]] — Git と Mercurial を統合した現代的 VCS（jj CLI）
+- [[wiki/openssl-4]] — OpenSSL 4.0.0 リリース（ECH、ポスト量子暗号、SSLv3 削除）
+- [[wiki/introspective-diffusion-lm]] — 拡散 LM と AR モデルのギャップを埋める I-DLM
+- [[wiki/gpt-5-4-cyber]] — OpenAI の防御的サイバーセキュリティ特化モデル
+- [[wiki/cloudflare-wrangler-ai]] — AI エージェント向け Cloudflare Wrangler 全面再設計
+- [[wiki/github-copilot-cli-remote]] — GitHub Copilot CLI のリモートセッション機能（v1.0.25）
+- [[wiki/gemini-personal-intelligence]] — Gemini パーソナルインテリジェンス（Gmail/Photos/GitHub 横断 RAG）
+- [[wiki/gemma4-on-device]] — スマートフォン上で動くオンデバイス LLM（Gemma4）
+- [[wiki/marvelous-designer-2026]] — 衣服 3D ソフト Marvelous Designer 2026.0（3D ペンシル追加）
+- [[wiki/openduck-distributed-duckdb]] — MotherDuck コンセプトの OSS 分散 DuckDB 実装
 
-## Concept (22)
+## Concept (25)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -61,6 +73,9 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-job-queue]] — ジョブキューと マネージャーエージェントによる Claude Code マルチセッション設計
 - [[wiki/skill-md-pattern]] — SKILL.md による Claude Code の折りたたみ式マニュアルパターン
 - [[wiki/rust-for-cpython]] — Python 3.16 への Rust 統合計画（CPython メモリ安全性向上）
+- [[wiki/google-back-button-spam]] — Google バックボタンハイジャック スパムポリシー（2026年4月）
+- [[wiki/local-llm-dual-gpu]] — デュアル RTX 5060 Ti で 32GB VRAM のコスパ重視ローカル LLM 構成
+- [[wiki/writeback-rag]] — 過去クエリ結果を蒸留してナレッジベースを自動改善する WriteBack-RAG
 
 ## How-to (4)
 
@@ -76,7 +91,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (10)
+## Insight (13)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -88,6 +103,9 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/lean-formal-verification-limits]] — Lean 形式検証済みコードにバグが見つかった事例と、検証の根本的限界
 - [[wiki/axios-cve-2026]] — axios CVSS 10.0 脆弱性（CVE-2026-40175）と評価信頼性論争
 - [[wiki/claude-code-harness-patterns]] — ソースコード流出から学ぶ Claude Code ハーネスパターン10選
+- [[wiki/backblaze-cloud-sync-exclusion]] — Backblaze がクラウド同期フォルダを告知なしで除外した件の教訓
+- [[wiki/flock-lpr-privacy]] — Flock LPR の CCPA 削除要求拒否：監視インフラとプライバシー法の狭間
+- [[wiki/ai-era-engineering-shift]] — AI 時代のエンジニアリングシフト：実装から「届け方」へ
 
 ## Comparison (3)
 

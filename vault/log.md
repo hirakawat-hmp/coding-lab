@@ -1,5 +1,33 @@
 # Log
 
+## [2026-04-15] digest | 2026-04-15 daily digest
+- RSS フィード 10 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
+- 直近 24 時間以内の記事から 20 件を選別（AI セキュリティ競争・開発ツール・オンデバイス AI など多岐）
+- `vault/tags.md` に新規タグ追加: `security/privacy`、`data/analytics`
+- 新規 raw ファイル 18 件を保存（`vault/raw/2026-04-15-*.md`）
+- 新規 wiki ページ 18 件を作成:
+  - `vault/wiki/davinci-resolve-photo.md` — DaVinci Resolve 21 Photo Page（entity）
+  - `vault/wiki/backblaze-cloud-sync-exclusion.md` — Backblaze クラウド同期除外の教訓（insight）
+  - `vault/wiki/google-back-button-spam.md` — Google バックボタンハイジャック ポリシー（concept）
+  - `vault/wiki/claude-code-routines.md` — Claude Code Routines 自動実行（entity）
+  - `vault/wiki/jujutsu-jj.md` — Jujutsu (jj) バージョン管理システム（entity）
+  - `vault/wiki/openssl-4.md` — OpenSSL 4.0.0 リリース（entity）
+  - `vault/wiki/introspective-diffusion-lm.md` — Introspective Diffusion Language Model（entity）
+  - `vault/wiki/flock-lpr-privacy.md` — Flock LPR プライバシー問題（insight）
+  - `vault/wiki/gpt-5-4-cyber.md` — OpenAI GPT-5.4-Cyber サイバー特化モデル（entity）
+  - `vault/wiki/cloudflare-wrangler-ai.md` — Cloudflare Wrangler AI 再設計（entity）
+  - `vault/wiki/local-llm-dual-gpu.md` — デュアル RTX 5060 Ti ローカル LLM 構成（concept）
+  - `vault/wiki/github-copilot-cli-remote.md` — GitHub Copilot CLI リモートセッション（entity）
+  - `vault/wiki/gemini-personal-intelligence.md` — Gemini パーソナルインテリジェンス（entity）
+  - `vault/wiki/gemma4-on-device.md` — Gemma4 スマートフォン LLM（entity）
+  - `vault/wiki/marvelous-designer-2026.md` — Marvelous Designer 2026.0（entity）
+  - `vault/wiki/writeback-rag.md` — WriteBack-RAG 知識ベース自動改善（concept）
+  - `vault/wiki/ai-era-engineering-shift.md` — AI 時代エンジニアリングシフト（insight）
+  - `vault/wiki/openduck-distributed-duckdb.md` — OpenDuck 分散 DuckDB（entity）
+- `vault/newsletters/2026-04-15.md` を作成（20 トピック集約）
+- `vault/index.md` を更新（Entity 43、Concept 25、Insight 13）
+
 ## [2026-04-14] digest | 2026-04-14 daily digest (run 2)
 - RSS フィード 7 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, ITmedia AI+, OpenAI News）
 - 直近24時間の新着記事から7件を選別（既存ニュースレターへ追記、計20トピック）

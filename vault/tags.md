@@ -188,6 +188,12 @@ AI エージェントや開発の **フレームワーク**。ライブラリ単
 | `framework/mastra` | Mastra（TypeScript AI エージェントフレームワーク） |
 | `framework/adk` | Google ADK（マルチエージェントフレームワーク） |
 
+### Data
+
+| タグ | 説明 |
+|------|------|
+| `data/analytics` | データ分析・クエリエンジン（DuckDB、BigQuery 等） |
+
 ### Statistics / Math
 
 統計・数理・最適化の話題。
@@ -204,6 +210,7 @@ AI エージェントや開発の **フレームワーク**。ライブラリ単
 |------|------|
 | `security/web` | Web セキュリティ、脆弱性、CVE |
 | `security/supply-chain` | サプライチェーン攻撃、依存関係汚染 |
+| `security/privacy` | プライバシー、監視、CCPA、個人情報保護 |
 
 ### Design
 
