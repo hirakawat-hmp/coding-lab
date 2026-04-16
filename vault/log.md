@@ -1,5 +1,28 @@
 # Log
 
+## [2026-04-16] digest | 2026-04-16 daily digest
+- RSS フィード 10 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー・OpenAI Agents SDK ページは 403 のため WebSearch で補完
+- 直近 24 時間以内の記事から 20 件を選別（AI エージェントツール競争・物理 AI・セキュリティ・プライバシーなど多岐）
+- 新規 raw ファイル 11 件を保存（`vault/raw/2026-04-16-*.md`）
+- 新規 wiki ページ 13 件を作成:
+  - `vault/wiki/claude-code-desktop-parallel.md` — Claude Code Desktop 並列エージェント対応（entity）
+  - `vault/wiki/microsoft-sql-mcp-server.md` — Microsoft SQL MCP Server（entity）
+  - `vault/wiki/openai-agents-sdk-v2.md` — OpenAI Agents SDK 次世代（entity）
+  - `vault/wiki/gemini-macos-app.md` — Gemini for macOS ネイティブアプリ（entity）
+  - `vault/wiki/gemini-robotics-er.md` — Gemini Robotics-ER 1.6（entity）
+  - `vault/wiki/google-ice-data-surveillance.md` — Google/ICE データ提供事件の教訓（insight）
+  - `vault/wiki/cal-com-closed-source.md` — Cal.com クローズドソース化：AI 時代の OSS セキュリティ（insight）
+  - `vault/wiki/vray-blender-community.md` — V-Ray for Blender Community Edition（entity）
+  - `vault/wiki/sato-strips-as-tokens.md` — SATO 3D メッシュ AI（entity）
+  - `vault/wiki/crispr-down-syndrome.md` — CRISPR ダウン症染色体サイレンシング研究（entity）
+  - `vault/wiki/nissan-mobility-intelligence.md` — 日産 Mobility Intelligence Vision（entity）
+  - `vault/wiki/hitachi-physical-ai.md` — 日立 フィジカルAI・暗黙知デジタル化（concept）
+  - `vault/wiki/security-agent-harness.md` — セキュリティ分析 AI エージェント ハーネスエンジニアリング（concept）
+- 既存 wiki ページ 6 件を参照（claude-code-routines, claude-mythos, gpt-5-4-cyber, gemini-personal-intelligence, cloudflare-wrangler-ai, claude-code-harness-patterns）
+- `vault/newsletters/2026-04-16.md` を作成（20 トピック集約）
+- `vault/index.md` を更新（Entity 56、Concept 27、Insight 15）
+
 ## [2026-04-15] digest | 2026-04-15 daily digest
 - RSS フィード 10 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可

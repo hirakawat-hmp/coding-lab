@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (43)
+## Entity (56)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -48,8 +48,17 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/gemma4-on-device]] — スマートフォン上で動くオンデバイス LLM（Gemma4）
 - [[wiki/marvelous-designer-2026]] — 衣服 3D ソフト Marvelous Designer 2026.0（3D ペンシル追加）
 - [[wiki/openduck-distributed-duckdb]] — MotherDuck コンセプトの OSS 分散 DuckDB 実装
+- [[wiki/claude-code-desktop-parallel]] — Claude Code Desktop 並列エージェント対応（複数セッション同時管理）
+- [[wiki/microsoft-sql-mcp-server]] — PostgreSQL/MySQL/SQL Server に MCP で同時接続できる OSS サーバー
+- [[wiki/openai-agents-sdk-v2]] — OpenAI Agents SDK 次世代（サンドボックス・ハーネス・Manifest 抽象化）
+- [[wiki/gemini-macos-app]] — Gemini ネイティブ macOS アプリ（Option+Space 起動・画面共有対応）
+- [[wiki/gemini-robotics-er]] — Gemini Robotics-ER 1.6（産業現場計器読み取り 93% 精度・Boston Dynamics 連携）
+- [[wiki/vray-blender-community]] — V-Ray for Blender 無料コミュニティエディション（商用可・2K 制限）
+- [[wiki/sato-strips-as-tokens]] — SATO: アーティスト品質 3D メッシュ生成 AI（SIGGRAPH 2026 採択）
+- [[wiki/crispr-down-syndrome]] — CRISPR によるダウン症余分染色体サイレンシング研究（PNAS 2026）
+- [[wiki/nissan-mobility-intelligence]] — 日産 Mobility Intelligence Vision（ラインナップ 90% 自動運転化）
 
-## Concept (25)
+## Concept (27)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -76,6 +85,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/google-back-button-spam]] — Google バックボタンハイジャック スパムポリシー（2026年4月）
 - [[wiki/local-llm-dual-gpu]] — デュアル RTX 5060 Ti で 32GB VRAM のコスパ重視ローカル LLM 構成
 - [[wiki/writeback-rag]] — 過去クエリ結果を蒸留してナレッジベースを自動改善する WriteBack-RAG
+- [[wiki/hitachi-physical-ai]] — 日立 フィジカルAI：熟練工の暗黙知をセンサー・逆強化学習・LfD でデジタル化
+- [[wiki/security-agent-harness]] — セキュリティ分析 AI エージェント（Warren）のハーネスエンジニアリング実践
 
 ## How-to (4)
 
@@ -91,7 +102,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (13)
+## Insight (15)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -106,6 +117,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/backblaze-cloud-sync-exclusion]] — Backblaze がクラウド同期フォルダを告知なしで除外した件の教訓
 - [[wiki/flock-lpr-privacy]] — Flock LPR の CCPA 削除要求拒否：監視インフラとプライバシー法の狭間
 - [[wiki/ai-era-engineering-shift]] — AI 時代のエンジニアリングシフト：実装から「届け方」へ
+- [[wiki/google-ice-data-surveillance]] — Google が ICE へ事前通知なくデータ提供：プラットフォーム信頼の教訓
+- [[wiki/cal-com-closed-source]] — Cal.com クローズドソース化：AI による OSS 脆弱性スキャンへの応答
 
 ## Comparison (3)
 
