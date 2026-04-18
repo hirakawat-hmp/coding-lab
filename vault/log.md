@@ -1,5 +1,34 @@
 # Log
 
+## [2026-04-18] digest | 2026-04-18 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
+- 直近 24 時間以内の記事から 19 件を選別（AI ツールセキュリティ・デザインAI・エンジニアリング進化など）
+- `vault/tags.md` に新規タグを追加：`security/api`、`science/biology`、`crypto/blockchain`、`tool/cursor`、`tool/gh-cli`、`infra/vm`
+- 新規 raw ファイル 19 件を保存（`vault/raw/2026-04-17-*.md`, `vault/raw/2026-04-18-*.md`）
+- 新規 wiki ページ 19 件を作成:
+  - `vault/wiki/claude-design.md` — Anthropic Claude Design デザイン協働ツール（entity）
+  - `vault/wiki/claude-47-tokenizer-costs.md` — Claude 4.7 トークナイザーコスト実測（insight）
+  - `vault/wiki/mcp-security-vulnerability-2026.md` — MCP のシステム的脆弱性（insight）
+  - `vault/wiki/google-apikey-gemini-billing.md` — Google API キー課金インシデント（insight）
+  - `vault/wiki/claude-code-security-incidents.md` — Claude Code セキュリティ事故 7選（insight）
+  - `vault/wiki/gh-skill-github-cli.md` — GitHub 公式 gh skill コマンド（entity）
+  - `vault/wiki/gpt-rosalind.md` — OpenAI GPT-Rosalind 生命科学特化モデル（entity）
+  - `vault/wiki/cursor-3.md` — Cursor 3.0 マルチエージェント対応（entity）
+  - `vault/wiki/ai-engineering-harness-era.md` — AI エンジニアリング3フェーズ進化（concept）
+  - `vault/wiki/nist-cve-enrichment-end.md` — NIST CVE エンリッチメント断念（insight）
+  - `vault/wiki/iterm2-ssh-rce.md` — iTerm2 SSH Integration RCE（insight）
+  - `vault/wiki/google-android-cli.md` — Google Android CLI（entity）
+  - `vault/wiki/hitem3d-2.md` — Hitem3D 2.0 3D アセット生成（entity）
+  - `vault/wiki/deepl-voice-to-voice.md` — DeepL Voice-to-Voice（entity）
+  - `vault/wiki/smolvm.md` — smolvm ポータブル VM（entity）
+  - `vault/wiki/mushroom-mycelium-communication.md` — キノコ菌糸ネットワーク通信（entity）
+  - `vault/wiki/satoshi-nakamoto-identification.md` — サトシ・ナカモト特定の繰り返し（insight）
+  - `vault/wiki/crimson-desert-ssdm.md` — Crimson Desert の疑似 3D 技術（entity）
+  - `vault/wiki/kishida-deepfake-youtube.md` — 岸田元首相ディープフェイク（insight）
+- `vault/newsletters/2026-04-18.md` を作成（19 トピック集約）
+- `vault/index.md` を更新（Entity 67、Concept 28、Insight 23）
+
 ## [2026-04-16] digest | 2026-04-16 daily digest
 - RSS フィード 10 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー・OpenAI Agents SDK ページは 403 のため WebSearch で補完

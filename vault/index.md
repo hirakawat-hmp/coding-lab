@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (56)
+## Entity (67)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -57,8 +57,18 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/sato-strips-as-tokens]] — SATO: アーティスト品質 3D メッシュ生成 AI（SIGGRAPH 2026 採択）
 - [[wiki/crispr-down-syndrome]] — CRISPR によるダウン症余分染色体サイレンシング研究（PNAS 2026）
 - [[wiki/nissan-mobility-intelligence]] — 日産 Mobility Intelligence Vision（ラインナップ 90% 自動運転化）
+- [[wiki/claude-design]] — Anthropic の AI デザイン協働ツール（Claude Opus 4.7 ベース）
+- [[wiki/gh-skill-github-cli]] — GitHub 公式 AI エージェントスキル管理 CLI（supply chain 保護内蔵）
+- [[wiki/gpt-rosalind]] — OpenAI の生命科学特化 AI モデル（RNA 予測で専門家 95th パーセンタイル超え）
+- [[wiki/cursor-3]] — Cursor 3.0 マルチエージェント並行実行対応コードエディタ
+- [[wiki/google-android-cli]] — Google Android CLI（トークン 70% 削減・3倍高速化）
+- [[wiki/hitem3d-2]] — Hitem3D 2.0 プロダクション対応 AI 3D アセット生成
+- [[wiki/deepl-voice-to-voice]] — DeepL Voice-to-Voice リアルタイム音声翻訳（40言語対応）
+- [[wiki/smolvm]] — smolvm：サブ秒コールドスタートのポータブル VM（Rust製、Apache-2.0）
+- [[wiki/mushroom-mycelium-communication]] — キノコの菌糸ネットワーク電気信号通信（東北大研究）
+- [[wiki/crimson-desert-ssdm]] — Crimson Desert の疑似 3D レンダリング技術解析（SSDM/SPOM）
 
-## Concept (27)
+## Concept (28)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -87,6 +97,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/writeback-rag]] — 過去クエリ結果を蒸留してナレッジベースを自動改善する WriteBack-RAG
 - [[wiki/hitachi-physical-ai]] — 日立 フィジカルAI：熟練工の暗黙知をセンサー・逆強化学習・LfD でデジタル化
 - [[wiki/security-agent-harness]] — セキュリティ分析 AI エージェント（Warren）のハーネスエンジニアリング実践
+- [[wiki/ai-engineering-harness-era]] — AI エンジニアリング3フェーズ進化：プロンプト→コンテキスト→ハーネス（2022-2026）
 
 ## How-to (4)
 
@@ -102,7 +113,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (15)
+## Insight (23)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -119,6 +130,14 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/ai-era-engineering-shift]] — AI 時代のエンジニアリングシフト：実装から「届け方」へ
 - [[wiki/google-ice-data-surveillance]] — Google が ICE へ事前通知なくデータ提供：プラットフォーム信頼の教訓
 - [[wiki/cal-com-closed-source]] — Cal.com クローズドソース化：AI による OSS 脆弱性スキャンへの応答
+- [[wiki/claude-47-tokenizer-costs]] — Claude 4.7 新トークナイザーの実コスト（公式推定を超え最大 1.47倍）
+- [[wiki/mcp-security-vulnerability-2026]] — MCP のシステム的脆弱性 6件（OX Security 報告、2026年4月）
+- [[wiki/google-apikey-gemini-billing]] — Google API キー脆弱性：13時間で約900万円請求インシデント
+- [[wiki/claude-code-security-incidents]] — Claude Code で実際に起きたセキュリティ事故 7選と防止策
+- [[wiki/nist-cve-enrichment-end]] — NIST が大半の CVE エンリッチメントを断念（2026年4月）
+- [[wiki/iterm2-ssh-rce]] — iTerm2 SSH Integration RCE：cat readme.txt でコード実行される脆弱性
+- [[wiki/satoshi-nakamoto-identification]] — 「サトシ・ナカモト」が何度も発見される理由：匿名性がコアアーキテクチャ
+- [[wiki/kishida-deepfake-youtube]] — 岸田元首相がディープフェイクをセルフパロディーに使った事例（2026年4月）
 
 ## Comparison (3)
 
