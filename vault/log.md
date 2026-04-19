@@ -1,5 +1,27 @@
 # Log
 
+## [2026-04-19] digest | 2026-04-19 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
+- 直近 24 時間以内の記事から 12 件を選別（半導体・宇宙科学・AI ツール・開発技術など多岐）
+- `vault/tags.md` に新規タグを追加：`science/physics`、`science/space`、`infra/hardware`、`dev/react`、`tool/mcp`
+- 新規 raw ファイル 12 件を保存（`vault/raw/2026-04-19-*.md`）
+- 新規 wiki ページ 12 件を作成:
+  - `vault/wiki/nist-any-wavelength-laser.md` — NIST 任意波長レーザー集積チップ（entity）
+  - `vault/wiki/nasa-voyager1-2026.md` — ボイジャー1号 LECP 計器停止の教訓（insight）
+  - `vault/wiki/intel-advanced-packaging.md` — Intel 先端チップパッケージング事業（entity）
+  - `vault/wiki/manyana-vcs.md` — Manyana CRDT ベース次世代 VCS（entity）
+  - `vault/wiki/prolog-mcp-server.md` — prolog-reasoner Prolog×MCP サーバー（entity）
+  - `vault/wiki/mlx-whisper-video-pipeline.md` — 会議録画→ハイライト動画 自動生成パイプライン（concept）
+  - `vault/wiki/ai-coding-non-programmer.md` — 非プログラマーが AI でアプリ開発できる？（insight）
+  - `vault/wiki/cinematic-toolkit-ue5.md` — Cinematic Toolkit for UE5（entity）
+  - `vault/wiki/harness-engineering-term.md` — ハーネスエンジニアリング用語の解体（concept）
+  - `vault/wiki/claude-code-english-learning.md` — Claude Code で業務しながら英語学習（how-to）
+  - `vault/wiki/async-react-debounce.md` — トランジション対応 useDebouncedValue（concept）
+  - `vault/wiki/reporting-api-frontend.md` — Reporting API フロントエンド Observability（concept）
+- `vault/newsletters/2026-04-19.md` を作成（12 トピック集約）
+- `vault/index.md` を更新（Entity 72、Concept 32、How-to 5、Insight 25）
+
 ## [2026-04-18] digest | 2026-04-18 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可

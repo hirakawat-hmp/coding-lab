@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (67)
+## Entity (72)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -67,8 +67,13 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/smolvm]] — smolvm：サブ秒コールドスタートのポータブル VM（Rust製、Apache-2.0）
 - [[wiki/mushroom-mycelium-communication]] — キノコの菌糸ネットワーク電気信号通信（東北大研究）
 - [[wiki/crimson-desert-ssdm]] — Crimson Desert の疑似 3D レンダリング技術解析（SSDM/SPOM）
+- [[wiki/nist-any-wavelength-laser]] — NIST 任意波長レーザー集積フォトニクスチップ（量子技術・光通信応用）
+- [[wiki/intel-advanced-packaging]] — Intel 先端チップパッケージング事業（EMIB-T・AI インフラ戦略）
+- [[wiki/manyana-vcs]] — Manyana CRDT ベース次世代 VCS（Bram Cohen 設計・保証されたマージ）
+- [[wiki/prolog-mcp-server]] — prolog-reasoner：Prolog × MCP で LLM 論理推論を 73% → 90% に向上
+- [[wiki/cinematic-toolkit-ue5]] — Cinematic Toolkit for UE5（三点照明・ショットプリセット、無料）
 
-## Concept (28)
+## Concept (32)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -98,13 +103,18 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/hitachi-physical-ai]] — 日立 フィジカルAI：熟練工の暗黙知をセンサー・逆強化学習・LfD でデジタル化
 - [[wiki/security-agent-harness]] — セキュリティ分析 AI エージェント（Warren）のハーネスエンジニアリング実践
 - [[wiki/ai-engineering-harness-era]] — AI エンジニアリング3フェーズ進化：プロンプト→コンテキスト→ハーネス（2022-2026）
+- [[wiki/mlx-whisper-video-pipeline]] — 会議録画→ハイライト動画 自動生成パイプライン（mlx-whisper × Remotion × Claude Code）
+- [[wiki/harness-engineering-term]] — ハーネスエンジニアリングという用語の解体（LangChain 定義・批判的考察）
+- [[wiki/async-react-debounce]] — Async React のトランジション対応 useDebouncedValue フック設計
+- [[wiki/reporting-api-frontend]] — Reporting API によるフロントエンド Observability（Baseline 2026年3月）
 
-## How-to (4)
+## How-to (5)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
 - [[wiki/tdd-parallel-workflow]] — Claude Code subagent による探索・計画・実装の並列化
 - [[wiki/ingress-nginx-to-gateway-api]] — Ingress NGINX → Gateway API + Envoy Gateway 移行手順
+- [[wiki/claude-code-english-learning]] — Claude Code で業務しながら英語学習（EnglishCoach + TTS 構成）
 
 ## Reference (4)
 
@@ -113,7 +123,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (23)
+## Insight (25)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -138,6 +148,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/iterm2-ssh-rce]] — iTerm2 SSH Integration RCE：cat readme.txt でコード実行される脆弱性
 - [[wiki/satoshi-nakamoto-identification]] — 「サトシ・ナカモト」が何度も発見される理由：匿名性がコアアーキテクチャ
 - [[wiki/kishida-deepfake-youtube]] — 岸田元首相がディープフェイクをセルフパロディーに使った事例（2026年4月）
+- [[wiki/nasa-voyager1-2026]] — ボイジャー1号 LECP 計器停止と graceful degradation の教訓（2026年4月）
+- [[wiki/ai-coding-non-programmer]] — 非プログラマーが AI でアプリ開発できる？10ヶ月の実証から得た教訓
 
 ## Comparison (3)
 
