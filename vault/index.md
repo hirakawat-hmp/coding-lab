@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (72)
+## Entity (76)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -72,8 +72,12 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/manyana-vcs]] — Manyana CRDT ベース次世代 VCS（Bram Cohen 設計・保証されたマージ）
 - [[wiki/prolog-mcp-server]] — prolog-reasoner：Prolog × MCP で LLM 論理推論を 73% → 90% に向上
 - [[wiki/cinematic-toolkit-ue5]] — Cinematic Toolkit for UE5（三点照明・ショットプリセット、無料）
+- [[wiki/cpp26]] — C++26 の 4 大機能（リフレクション・メモリ安全性・コントラクト・std::execution）
+- [[wiki/cloudflare-artifacts]] — AI エージェント向け Git 互換ファイルシステム（2026年5月パブリックベータ）
+- [[wiki/salesforce-headless-360]] — API/CLI/MCP 経由で AI エージェントが Salesforce 全機能にアクセス
+- [[wiki/keio-notion-ai-campus]] — 慶應義塾の全教職員 Notion 導入・168年分の知的資産を AI へ
 
-## Concept (32)
+## Concept (37)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -107,6 +111,11 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/harness-engineering-term]] — ハーネスエンジニアリングという用語の解体（LangChain 定義・批判的考察）
 - [[wiki/async-react-debounce]] — Async React のトランジション対応 useDebouncedValue フック設計
 - [[wiki/reporting-api-frontend]] — Reporting API によるフロントエンド Observability（Baseline 2026年3月）
+- [[wiki/bromine-chokepoint]] — Dead Sea 臭素がメモリチップ製造の単一障害点（地政学的供給リスク）
+- [[wiki/empirical-prompt-tuning]] — AI が自分のプロンプトを評価するループで再現性を自動向上
+- [[wiki/lets-encrypt-ari]] — Let's Encrypt 短期証明書の落とし穴と ARI 対応クライアントの必要性
+- [[wiki/csharp-15-union-types]] — C# 15 の Union Types（判別共用体・コンパイル時網羅性チェック）
+- [[wiki/ag-ui-protocol]] — AI エージェントとフロントエンドを繋ぐイベントベース標準プロトコル
 
 ## How-to (5)
 
@@ -123,7 +132,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (25)
+## Insight (29)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -150,6 +159,10 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/kishida-deepfake-youtube]] — 岸田元首相がディープフェイクをセルフパロディーに使った事例（2026年4月）
 - [[wiki/nasa-voyager1-2026]] — ボイジャー1号 LECP 計器停止と graceful degradation の教訓（2026年4月）
 - [[wiki/ai-coding-non-programmer]] — 非プログラマーが AI でアプリ開発できる？10ヶ月の実証から得た教訓
+- [[wiki/vercel-2026-breach]] — Vercel 2026年4月セキュリティインシデント（Context.ai 経由のサプライチェーン侵害）
+- [[wiki/ai-agent-math-limits]] — AIエージェントの数学的限界と「元年」ではなく漸進的普及というモデル
+- [[wiki/claude-opus-47-changes]] — Claude Opus 4.6→4.7 システムプロンプト変更（PowerPoint エージェント追加等）
+- [[wiki/claude-code-45-automation]] — 東大院生が 6 ヶ月で構築した 45 タスク自動化システムの実録
 
 ## Comparison (3)
 

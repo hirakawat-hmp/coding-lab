@@ -1,5 +1,28 @@
 # Log
 
+## [2026-04-20] digest | 2026-04-20 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
+- 直近 24 時間以内の記事から 13 件を選別（セキュリティ・半導体地政学・AI エージェント・言語仕様など多岐）
+- `vault/tags.md` に新規タグを追加：`dev/csharp`、`dev/cpp`
+- 新規 raw ファイル 13 件を保存（`vault/raw/2026-04-20-*.md`）
+- 新規 wiki ページ 13 件を作成:
+  - `vault/wiki/vercel-2026-breach.md` — Vercel 2026年4月セキュリティインシデント（insight）
+  - `vault/wiki/bromine-chokepoint.md` — Dead Sea 臭素とメモリチップ製造の地政学リスク（concept）
+  - `vault/wiki/cpp26.md` — C++26 の 4 大機能（entity）
+  - `vault/wiki/cloudflare-artifacts.md` — AI エージェント向け Git 互換ファイルシステム（entity）
+  - `vault/wiki/salesforce-headless-360.md` — Salesforce Headless 360 API/CLI/MCP 対応（entity）
+  - `vault/wiki/ai-agent-math-limits.md` — AIエージェントの数学的限界と漸進的普及モデル（insight）
+  - `vault/wiki/claude-opus-47-changes.md` — Claude Opus 4.6→4.7 システムプロンプト変更（insight）
+  - `vault/wiki/empirical-prompt-tuning.md` — AI による自動プロンプトチューニング手法（concept）
+  - `vault/wiki/lets-encrypt-ari.md` — 短期証明書と ARI プロトコル（concept）
+  - `vault/wiki/keio-notion-ai-campus.md` — 慶應義塾 AI Campus 構想（entity）
+  - `vault/wiki/claude-code-45-automation.md` — 東大院生の 45 タスク自動化実録（insight）
+  - `vault/wiki/csharp-15-union-types.md` — C# 15 Union Types（concept）
+  - `vault/wiki/ag-ui-protocol.md` — AG-UI エージェント・フロントエンド標準プロトコル（concept）
+- `vault/newsletters/2026-04-20.md` を作成（13 トピック集約）
+- `vault/index.md` を更新（Entity 76、Concept 37、Insight 29）
+
 ## [2026-04-19] digest | 2026-04-19 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
