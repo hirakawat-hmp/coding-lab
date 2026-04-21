@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (76)
+## Entity (85)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -76,8 +76,16 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/cloudflare-artifacts]] — AI エージェント向け Git 互換ファイルシステム（2026年5月パブリックベータ）
 - [[wiki/salesforce-headless-360]] — API/CLI/MCP 経由で AI エージェントが Salesforce 全機能にアクセス
 - [[wiki/keio-notion-ai-campus]] — 慶應義塾の全教職員 Notion 導入・168年分の知的資産を AI へ
+- [[wiki/apple-ceo-ternus-2026]] — Apple CEO 交代（John Ternus 就任・Tim Cook 会長移行、2026年9月）
+- [[wiki/kimi-k2-6]] — Kimi K2.6 オープンソースコーディングモデル（300サブエージェント・Agent Swarm）
+- [[wiki/servo-crates-io]] — Servo Rust 製ブラウザエンジン Crates.io リリース（LTS プログラム付き）
+- [[wiki/lineyahoo-agent-i]] — LINEヤフー AI エージェント「Agent i」（LINE/Yahoo! JAPAN 統合）
+- [[wiki/claude-code-usage-dashboard]] — Claude Code 利用状況可視化ダッシュボード OSS（AgenticSec）
+- [[wiki/python-pep832]] — Python PEP 832 .venv 仮想環境パス標準化提案（Draft, Python 3.15 対象）
+- [[wiki/niagara-automotive-ue5]] — Niagara Automotive UE5.7 自動車 VFX コース（RedefineFX）
+- [[wiki/xyn-spatial-capture]] — XYN Spatial Capture Solution（Sony 法人向け空間キャプチャー）
 
-## Concept (37)
+## Concept (38)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -116,14 +124,16 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/lets-encrypt-ari]] — Let's Encrypt 短期証明書の落とし穴と ARI 対応クライアントの必要性
 - [[wiki/csharp-15-union-types]] — C# 15 の Union Types（判別共用体・コンパイル時網羅性チェック）
 - [[wiki/ag-ui-protocol]] — AI エージェントとフロントエンドを繋ぐイベントベース標準プロトコル
+- [[wiki/quantum-128bit-symmetric]] — 量子コンピュータは 128bit 対称鍵を脅かさない（Grover アルゴリズム定量分析）
 
-## How-to (5)
+## How-to (6)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
 - [[wiki/tdd-parallel-workflow]] — Claude Code subagent による探索・計画・実装の並列化
 - [[wiki/ingress-nginx-to-gateway-api]] — Ingress NGINX → Gateway API + Envoy Gateway 移行手順
 - [[wiki/claude-code-english-learning]] — Claude Code で業務しながら英語学習（EnglishCoach + TTS 構成）
+- [[wiki/aws-supply-chain-monitor]] — AWS マネージドサービスで作るサプライチェーン攻撃検知システム（ほぼゼロコスト）
 
 ## Reference (4)
 
@@ -132,7 +142,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (29)
+## Insight (35)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -163,6 +173,12 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/ai-agent-math-limits]] — AIエージェントの数学的限界と「元年」ではなく漸進的普及というモデル
 - [[wiki/claude-opus-47-changes]] — Claude Opus 4.6→4.7 システムプロンプト変更（PowerPoint エージェント追加等）
 - [[wiki/claude-code-45-automation]] — 東大院生が 6 ヶ月で構築した 45 タスク自動化システムの実録
+- [[wiki/chatgpt-ads-stackadapt]] — ChatGPT 広告配信（StackAdapt × OpenAI パイロット、CPM $15–60）
+- [[wiki/deezer-ai-music]] — Deezer: 日次アップロード 44% が AI 生成音楽（7.5万曲/日）
+- [[wiki/nvidia-ai-competition-2026]] — NVIDIA の優位性は揺らぐか——AI によるチップ設計民主化
+- [[wiki/eu-replaceable-battery-2027]] — EU バッテリー交換義務化 2027年2月——スマートフォン全機種対象
+- [[wiki/internet-archive-ai-threat]] — AI の台頭がインターネットアーカイブを脅かす構造的問題
+- [[wiki/ai-driven-domain-design]] — AI コーディング全委譲がドメイン設計の重要性を逆照射した実証
 
 ## Comparison (3)
 

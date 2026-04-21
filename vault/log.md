@@ -1,5 +1,32 @@
 # Log
 
+## [2026-04-21] digest | 2026-04-21 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
+- 直近 24 時間以内の記事から 17 件を選別（Apple CEO 交代・AI モデル・音楽産業・セキュリティ・EU 規制・3D/VFX など多岐）
+- `vault/tags.md` に新規タグを追加：`media/music`、`industry/tech`、`policy/regulation`
+- 新規 raw ファイル 16 件を保存（`vault/raw/2026-04-21-*.md`）
+- 新規 wiki ページ 16 件を作成、既存 1 件を更新:
+  - `vault/wiki/apple-ceo-ternus-2026.md` — Apple CEO 交代（John Ternus・Tim Cook 会長）
+  - `vault/wiki/kimi-k2-6.md` — Kimi K2.6 オープンソースコーディングモデル（entity）
+  - `vault/wiki/chatgpt-ads-stackadapt.md` — ChatGPT 広告配信 StackAdapt（insight）
+  - `vault/wiki/deezer-ai-music.md` — Deezer AI 音楽フラッド44%（insight）
+  - `vault/wiki/claude-design.md` — Figma 株 -7% のインパクト情報を追記（更新）
+  - `vault/wiki/servo-crates-io.md` — Servo ブラウザエンジン Crates.io 公開（entity）
+  - `vault/wiki/lineyahoo-agent-i.md` — LINEヤフー Agent i（entity）
+  - `vault/wiki/nvidia-ai-competition-2026.md` — NVIDIA 優位性とチップ設計民主化（insight）
+  - `vault/wiki/quantum-128bit-symmetric.md` — 量子コンピュータと 128bit 対称鍵（concept）
+  - `vault/wiki/claude-code-usage-dashboard.md` — Claude Code 利用ダッシュボード OSS（entity）
+  - `vault/wiki/aws-supply-chain-monitor.md` — AWS サプライチェーン検知（how-to）
+  - `vault/wiki/ai-driven-domain-design.md` — AI 全委譲→ドメイン設計の実証（insight）
+  - `vault/wiki/python-pep832.md` — Python PEP 832 .venv 標準化（entity）
+  - `vault/wiki/eu-replaceable-battery-2027.md` — EU バッテリー交換義務化（insight）
+  - `vault/wiki/internet-archive-ai-threat.md` — AI が Internet Archive を脅かす（insight）
+  - `vault/wiki/niagara-automotive-ue5.md` — Niagara Automotive UE5.7 コース（entity）
+  - `vault/wiki/xyn-spatial-capture.md` — Sony XYN Spatial Capture（entity）
+- `vault/newsletters/2026-04-21.md` を作成（17 トピック集約）
+- `vault/index.md` を更新（Entity 85、Concept 38、How-to 6、Insight 35）
+
 ## [2026-04-20] digest | 2026-04-20 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
