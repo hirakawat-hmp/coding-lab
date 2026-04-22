@@ -1,5 +1,32 @@
 # Log
 
+## [2026-04-22] digest | 2026-04-22 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
+- 直近 24 時間以内の記事から 17 件を選別（TypeScript 7.0・AI/開発ツール・社会問題・エンジニアリング哲学など）
+- `vault/tags.md` に新規タグを追加：`dev/ruby`
+- 新規 raw ファイル 17 件を保存（`vault/raw/2026-04-22-*.md`）
+- 新規 wiki ページ 17 件を作成：
+  - `vault/wiki/typescript-7-beta.md` — TypeScript 7.0 Beta（entity）
+  - `vault/wiki/claude-code-pro-tier-removal.md` — Claude Code Pro プラン削除（insight）
+  - `vault/wiki/openai-codex-enterprise.md` — OpenAI Codex エンタープライズ（entity）
+  - `vault/wiki/chatgpt-images-2.md` — ChatGPT Images 2.0（entity）
+  - `vault/wiki/anti-ai-movement-2026.md` — 反 AI 運動の台頭（insight）
+  - `vault/wiki/deepfake-schools-crisis.md` — 学校ディープフェイク被害（insight）
+  - `vault/wiki/vercel-wterm.md` — Vercel wterm（entity）
+  - `vault/wiki/google-labs-design-md.md` — Google Labs design.md（entity）
+  - `vault/wiki/ai4animationpy.md` — AI4AnimationPy（entity）
+  - `vault/wiki/ai-development-dont-scale.md` — AI時代こそスケールしないことをしよう（insight）
+  - `vault/wiki/claude-code-tmux-session.md` — Claude Code + tmux（how-to）
+  - `vault/wiki/graphql-ruby-guide.md` — graphql-ruby 実践ガイド（entity）
+  - `vault/wiki/n8n-rss-discord-automation.md` — n8n RSS→Discord 自動化（how-to）
+  - `vault/wiki/martha-wells-murderbot-ai.md` — マーサ・ウェルズ「弊機」（insight）
+  - `vault/wiki/anthropic-amazon-100b.md` — Anthropic–Amazon $100B+（entity）
+  - `vault/wiki/tokyo-ai-governor.md` — 東京都 AI 知事（entity）
+  - `vault/wiki/claude-code-intro-guide.md` — Claude Code 入門（how-to）
+- `vault/newsletters/2026-04-22.md` を作成（17 トピック集約）
+- `vault/index.md` を更新（Entity 95、Concept 38、How-to 9、Insight 40）
+
 ## [2026-04-21] digest | 2026-04-21 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn Trending, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可
