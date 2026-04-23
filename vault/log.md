@@ -1,5 +1,29 @@
 # Log
 
+## [2026-04-23] digest | 2026-04-23 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
+  ※ Hugging Face Daily Papers は 403、OpenAI News は 403 のため WebSearch で補完
+- 直近 24 時間以内の記事から 14 件を選別（Google Cloud Next 2026 が主軸）
+- 新規 raw ファイル 14 件を保存（`vault/raw/2026-04-23-*.md`）
+- 新規 wiki ページ 15 件を作成：
+  - `vault/wiki/google-cloud-next-2026.md` — GCN 2026 全体まとめ（entity）
+  - `vault/wiki/gemini-enterprise-agent-platform.md` — Gemini Enterprise Agent Platform（entity）
+  - `vault/wiki/google-spanner-omni.md` — Spanner Omni（entity）
+  - `vault/wiki/google-tpu-8.md` — 第8世代TPU 8t/8i（entity）
+  - `vault/wiki/google-agentic-data-cloud.md` — Agentic Data Cloud（entity）
+  - `vault/wiki/chatgpt-workspace-agents.md` — ChatGPT Workspace Agents（entity）
+  - `vault/wiki/qwen3-6-27b.md` — Qwen3.6-27B（entity）
+  - `vault/wiki/zed-parallel-agents.md` — Zed Parallel Agents（entity）
+  - `vault/wiki/blender-buddy.md` — Blender Buddy（entity）
+  - `vault/wiki/llm-over-editing.md` — LLM Over-editing 研究（concept）
+  - `vault/wiki/go-pqc-tls.md` — Go 1.24 TLS × PQC（concept）
+  - `vault/wiki/firefox-tor-indexeddb-cve.md` — Firefox/Tor CVE-2026-6770（insight）
+  - `vault/wiki/apple-signal-notification-fix.md` — Apple Signal 通知バグ修正（insight）
+  - `vault/wiki/ai-maga-influencer-scam.md` — AI 生成 MAGA 詐欺（insight）
+  - `vault/wiki/alphafold-5years.md` — AlphaFold 5 周年（insight）
+- `vault/newsletters/2026-04-23.md` を作成（14 トピック集約）
+- `vault/index.md` を更新（Entity 104、Concept 40、Insight 44）
+
 ## [2026-04-22] digest | 2026-04-22 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog※, 3D人, Hugging Face Daily Papers※）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのため取得不可

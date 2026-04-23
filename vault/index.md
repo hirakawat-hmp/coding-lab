@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (95)
+## Entity (104)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -93,8 +93,17 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/anthropic-amazon-100b]] — Anthropic–Amazon $100B+ パートナーシップ拡大
 - [[wiki/tokyo-ai-governor]] — 東京都 AI 知事情報コーナー（小池知事 AI アバター多言語サービス）
 - [[wiki/graphql-ruby-guide]] — graphql-ruby 実践ガイド（Zenn 無料 29 章・38 万字）
+- [[wiki/google-cloud-next-2026]] — Google Cloud Next 2026 全体まとめ（Agentic Enterprise テーマ）
+- [[wiki/gemini-enterprise-agent-platform]] — Gemini Enterprise Agent Platform（ローコード〜コード統合エージェント基盤）
+- [[wiki/google-spanner-omni]] — Google Cloud Spanner Omni（ローカルインストール可能な大規模分散 RDB）
+- [[wiki/google-tpu-8]] — Google 第8世代TPU「8t」「8i」（学習・推論専用チップに分化）
+- [[wiki/google-agentic-data-cloud]] — Google Agentic Data Cloud（全クラウドデータをAIネイティブ統合）
+- [[wiki/chatgpt-workspace-agents]] — ChatGPT Workspace Agents（Codex 動作・エンタープライズ向け GPTs 進化版）
+- [[wiki/qwen3-6-27b]] — Qwen3.6-27B（27B 密モデルで 397B MoE を超えるコーディング性能）
+- [[wiki/zed-parallel-agents]] — Zed Parallel Agents（並列エージェント管理・Threads Sidebar）
+- [[wiki/blender-buddy]] — Blender Buddy（APIキー不要・Llama.cpp 完全ローカル Blender AI エージェント）
 
-## Concept (38)
+## Concept (40)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -134,6 +143,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/csharp-15-union-types]] — C# 15 の Union Types（判別共用体・コンパイル時網羅性チェック）
 - [[wiki/ag-ui-protocol]] — AI エージェントとフロントエンドを繋ぐイベントベース標準プロトコル
 - [[wiki/quantum-128bit-symmetric]] — 量子コンピュータは 128bit 対称鍵を脅かさない（Grover アルゴリズム定量分析）
+- [[wiki/llm-over-editing]] — AIコード編集モデルの過度な書き換え問題（Over-editing）と測定方法
+- [[wiki/go-pqc-tls]] — Go 1.24 のデフォルト TLS に耐量子暗号（X25519MLKEM768）が有効化
 
 ## How-to (9)
 
@@ -154,7 +165,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (40)
+## Insight (44)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -196,6 +207,10 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/deepfake-schools-crisis]] — 学校でのディープフェイク被害（28 か国・600 人超）
 - [[wiki/ai-development-dont-scale]] — AI 時代こそスケールしないことをしよう（ボトルネックはコードの外）
 - [[wiki/martha-wells-murderbot-ai]] — マーサ・ウェルズ「弊機」と AI 意識・神経非定型の未来
+- [[wiki/firefox-tor-indexeddb-cve]] — Firefox/Tor の IndexedDB がプライバシーセッション横断識別子を漏洩（CVE-2026-6770）
+- [[wiki/apple-signal-notification-fix]] — Apple が削除済みメッセージ通知キャッシュ残留バグを修正（FBI 利用問題）
+- [[wiki/ai-maga-influencer-scam]] — AI 生成 MAGA 美女インフルエンサーで保守派男性を詐欺した事例
+- [[wiki/alphafold-5years]] — AlphaFold 5 周年：2億件の予測・ノーベル賞・全細胞シミュレーションへの展望
 
 ## Comparison (3)
 
