@@ -1,5 +1,26 @@
 # Log
 
+## [2026-04-24] digest | 2026-04-24 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー、OpenAI News の GPT-5.5 System Card は 403 のため WebSearch で補完
+- 直近 24 時間以内の記事から 12 件を選別（AI モデル・エンタープライズ AI・セキュリティ・科学が主軸）
+- 新規 raw ファイル 12 件を保存（`vault/raw/2026-04-24-*.md`）
+- 新規 wiki ページ 12 件を作成：
+  - `vault/wiki/gpt-5-5.md` — OpenAI GPT-5.5（entity）
+  - `vault/wiki/torch-tpu.md` — TorchTPU Google Scale（entity）
+  - `vault/wiki/microsoft-365-copilot-agent.md` — Microsoft 365 Copilot エージェント GA（entity）
+  - `vault/wiki/fujitsu-physical-ai-os.md` — 富士通 Kozuchi Physical AI OS（entity）
+  - `vault/wiki/tolaria.md` — Tolaria OSS macOS ナレッジベースアプリ（entity）
+  - `vault/wiki/anthropic-claude-code-postmortem-2026-04.md` — Claude Code ポストモーテム（insight）
+  - `vault/wiki/bitwarden-cli-supply-chain-2026-04.md` — Bitwarden CLI サプライチェーン攻撃（insight）
+  - `vault/wiki/claude-code-enterprise-adoption-2026.md` — Claude Code エンタープライズ導入（insight）
+  - `vault/wiki/ai-adoption-executive-gap.md` — AI 導入経営層・現場ギャップ（insight）
+  - `vault/wiki/france-titres-breach-2026.md` — France Titres データ漏洩（insight）
+  - `vault/wiki/meshcore-split-ai-code.md` — MeshCore 分裂・AI コード透明性（insight）
+  - `vault/wiki/doggerland-ancient-dna.md` — ドッガーランド古代 DNA 研究（insight）
+- `vault/newsletters/2026-04-24.md` を作成（12 トピック集約）
+- `vault/index.md` を更新（Entity 109、Insight 51）
+
 ## [2026-04-23] digest | 2026-04-23 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
   ※ Hugging Face Daily Papers は 403、OpenAI News は 403 のため WebSearch で補完

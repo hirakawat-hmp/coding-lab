@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (104)
+## Entity (109)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -102,6 +102,11 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/qwen3-6-27b]] — Qwen3.6-27B（27B 密モデルで 397B MoE を超えるコーディング性能）
 - [[wiki/zed-parallel-agents]] — Zed Parallel Agents（並列エージェント管理・Threads Sidebar）
 - [[wiki/blender-buddy]] — Blender Buddy（APIキー不要・Llama.cpp 完全ローカル Blender AI エージェント）
+- [[wiki/gpt-5-5]] — OpenAI GPT-5.5（コードネーム Spud）エージェント的タスク実行強化モデル
+- [[wiki/torch-tpu]] — TorchTPU: Google Scale で PyTorch を TPU ネイティブ実行（3 イーガーモード）
+- [[wiki/microsoft-365-copilot-agent]] — Microsoft 365 Copilot エージェント機能 GA（Word/Excel/PowerPoint 自律実行）
+- [[wiki/fujitsu-physical-ai-os]] — 富士通 Kozuchi Physical AI OS（ロボット・自動運転向け、CMU 連携）
+- [[wiki/tolaria]] — Tolaria OSS macOS Markdown ナレッジベースアプリ（Tauri+React、AGPL-3.0）
 
 ## Concept (40)
 
@@ -165,7 +170,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (44)
+## Insight (51)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -211,6 +216,13 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/apple-signal-notification-fix]] — Apple が削除済みメッセージ通知キャッシュ残留バグを修正（FBI 利用問題）
 - [[wiki/ai-maga-influencer-scam]] — AI 生成 MAGA 美女インフルエンサーで保守派男性を詐欺した事例
 - [[wiki/alphafold-5years]] — AlphaFold 5 周年：2億件の予測・ノーベル賞・全細胞シミュレーションへの展望
+- [[wiki/anthropic-claude-code-postmortem-2026-04]] — Claude Code 品質低下 3 問題の公式ポストモーテム（2026年3〜4月）
+- [[wiki/bitwarden-cli-supply-chain-2026-04]] — Bitwarden CLI 2026.4.0 Checkmarx サプライチェーン侵害（1000万+ ユーザー影響）
+- [[wiki/claude-code-enterprise-adoption-2026]] — 楽天 80%・Money Forward 70% 削減：Claude Code エンタープライズ導入実績
+- [[wiki/ai-adoption-executive-gap]] — AI 導入における経営層 70% vs 現場 38%：32 ポイントの認識ギャップ
+- [[wiki/france-titres-breach-2026]] — フランス France Titres データ漏洩（最大 1,900 万件、身分証明書管理機関）
+- [[wiki/meshcore-split-ai-code]] — MeshCore 分裂：AI 生成コードの秘匿と商標無断申請（38,000 ノード規模）
+- [[wiki/doggerland-ancient-dna]] — ドッガーランド sedaDNA：16,000 年前の温帯林発見（北海海底）
 
 ## Comparison (3)
 
