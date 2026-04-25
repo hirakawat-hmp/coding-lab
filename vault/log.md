@@ -1,5 +1,32 @@
 # Log
 
+## [2026-04-25] digest | 2026-04-25 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
+  ※ Hugging Face Daily Papers は 403（前日と同様）、Google Cloud Blog はエラー、Bloomberg は 403 のため CNBC/TechCrunch で補完、Linux Foundation 記事は文字化けのため除外
+- 直近 24 時間以内の記事から 18 件を選別（Anthropic 投資・AI モデル競争・セキュリティ・3D が主軸）
+- 新規 raw ファイル 13 件を保存（`vault/raw/2026-04-25-*.md`）
+- 新規 wiki ページ 19 件を作成：
+  - `vault/wiki/google-anthropic-40b-2026.md` — Google 400億ドル投資（insight）
+  - `vault/wiki/deepseek-v4.md` — DeepSeek-V4 オープンソース AI（entity）
+  - `vault/wiki/nec-anthropic-partnership.md` — NEC・Anthropic 協業（entity）
+  - `vault/wiki/japan-gov-ai-gennai.md` — 政府AI「源内」（entity）
+  - `vault/wiki/meta-aws-graviton5.md` — Meta × AWS Graviton5（entity）
+  - `vault/wiki/browser-harness.md` — Browser Harness（entity）
+  - `vault/wiki/envguard.md` — envguard AI 秘密鍵チェック（entity）
+  - `vault/wiki/cc-canary.md` — CC-Canary リグレッション検出（entity）
+  - `vault/wiki/campfire-breach-2026.md` — CAMPFIRE 個人情報漏洩（insight）
+  - `vault/wiki/fortell-ai-hearing-aid.md` — Fortell AI 補聴器（entity）
+  - `vault/wiki/primed3d.md` — Primed3D 3D プリントツール（entity）
+  - `vault/wiki/substance-3d-painter-12-1.md` — Substance 3D Painter 12.1 Beta（entity）
+  - `vault/wiki/deep-learning-theory.md` — 深層学習科学理論（concept）
+  - `vault/wiki/claude-code-opus47-best-practices.md` — Opus 4.7 ベストプラクティス（insight）
+  - `vault/wiki/hatena-breach-2026.md` — はてな 11億円資金流出（insight）
+  - `vault/wiki/google-ai-professional-cert.md` — Google AI 認定資格（entity）
+  - `vault/wiki/gpt-5-5-api-release.md` — GPT-5.5 API 公開（insight）
+  - `vault/wiki/claude-code-db-design-workflow.md` — Claude Code × DB 設計（insight）
+- `vault/newsletters/2026-04-25.md` を作成（18 トピック集約）
+- `vault/index.md` を更新（Entity 121、Concept 41、Insight 58）
+
 ## [2026-04-24] digest | 2026-04-24 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー、OpenAI News の GPT-5.5 System Card は 403 のため WebSearch で補完

@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (109)
+## Entity (121)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -107,8 +107,19 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/microsoft-365-copilot-agent]] — Microsoft 365 Copilot エージェント機能 GA（Word/Excel/PowerPoint 自律実行）
 - [[wiki/fujitsu-physical-ai-os]] — 富士通 Kozuchi Physical AI OS（ロボット・自動運転向け、CMU 連携）
 - [[wiki/tolaria]] — Tolaria OSS macOS Markdown ナレッジベースアプリ（Tauri+React、AGPL-3.0）
+- [[wiki/deepseek-v4]] — DeepSeek-V4（MoE アーキテクチャ、Claude Opus 4.6 対抗オープンソースモデル）
+- [[wiki/nec-anthropic-partnership]] — NEC・Anthropic 戦略的パートナーシップ（グループ3万人 Claude Code 展開）
+- [[wiki/japan-gov-ai-gennai]] — デジタル庁 政府AI「源内」（GitHub オープンソース公開・商用利用 OK）
+- [[wiki/meta-aws-graviton5]] — Meta × AWS Graviton5 AI 推論提携（3nm・192コア）
+- [[wiki/browser-harness]] — Browser Harness（LLM セルフヒーリング型ブラウザ自動化・592行 Python）
+- [[wiki/envguard]] — envguard（AI ツールへの秘密鍵漏洩を事前チェック・CRITICAL〜INFO 5段階）
+- [[wiki/cc-canary]] — CC-Canary（Claude Code リグレッション早期検出 Agent Skill）
+- [[wiki/fortell-ai-hearing-aid]] — Fortell AI補聴器スタートアップ（Phonak 超え・カクテルパーティ問題解決）
+- [[wiki/primed3d]] — Primed3D（3〜5色フィラメントでフルカラー FDM 3D プリントを実現するウェブツール）
+- [[wiki/substance-3d-painter-12-1]] — Substance 3D Painter 12.1 Beta（Skew Baking・Auto-Rebaking・OpenPBR）
+- [[wiki/google-ai-professional-cert]] — Google AI プロフェッショナル認定資格（日本・無料枠1万人が1日で終了）
 
-## Concept (40)
+## Concept (41)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -150,6 +161,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/quantum-128bit-symmetric]] — 量子コンピュータは 128bit 対称鍵を脅かさない（Grover アルゴリズム定量分析）
 - [[wiki/llm-over-editing]] — AIコード編集モデルの過度な書き換え問題（Over-editing）と測定方法
 - [[wiki/go-pqc-tls]] — Go 1.24 のデフォルト TLS に耐量子暗号（X25519MLKEM768）が有効化
+- [[wiki/deep-learning-theory]] — 深層学習の科学理論 "Learning Mechanics"（Simon ら、arXiv 2026年4月）
 
 ## How-to (9)
 
@@ -170,7 +182,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 
-## Insight (51)
+## Insight (58)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -223,6 +235,12 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/france-titres-breach-2026]] — フランス France Titres データ漏洩（最大 1,900 万件、身分証明書管理機関）
 - [[wiki/meshcore-split-ai-code]] — MeshCore 分裂：AI 生成コードの秘匿と商標無断申請（38,000 ノード規模）
 - [[wiki/doggerland-ancient-dna]] — ドッガーランド sedaDNA：16,000 年前の温帯林発見（北海海底）
+- [[wiki/google-anthropic-40b-2026]] — Google の Anthropic への 400億ドル投資（AI 競争の資本構造変化）
+- [[wiki/campfire-breach-2026]] — CAMPFIRE 個人情報漏洩（GitHub 不正アクセス・最大22.5万人）
+- [[wiki/hatena-breach-2026]] — はてな 11億円資金流出（上場企業への BEC 被害、2026年4月）
+- [[wiki/claude-code-opus47-best-practices]] — Opus 4.7 時代にやめるべき Claude Code の使い方 6 選
+- [[wiki/gpt-5-5-api-release]] — GPT-5.5 API 公開（100万トークン対応、2026年4月24日）
+- [[wiki/claude-code-db-design-workflow]] — Claude Code とのペア DB 設計ワークフロー（4ステップ）
 
 ## Comparison (3)
 
