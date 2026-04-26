@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (121)
+## Entity (131)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -118,6 +118,15 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/primed3d]] — Primed3D（3〜5色フィラメントでフルカラー FDM 3D プリントを実現するウェブツール）
 - [[wiki/substance-3d-painter-12-1]] — Substance 3D Painter 12.1 Beta（Skew Baking・Auto-Rebaking・OpenPBR）
 - [[wiki/google-ai-professional-cert]] — Google AI プロフェッショナル認定資格（日本・無料枠1万人が1日で終了）
+- [[wiki/anthropic-project-deal]] — Anthropicのエージェント市場実験「Project Deal」（69組・186課題・$4000予算）
+- [[wiki/claude-code-hooks-book-2026]] — Claude Code Hooks実務活用Zenn書籍（まさやん著・300円・全13章）
+- [[wiki/google-agents-cli]] — Google agents-cli（Cloud Next '26・エージェント開発統合CLI）
+- [[wiki/microsoft-apm]] — Microsoft APM（Agent Package Manager・AIハーネス設定をpackage.json的に管理）
+- [[wiki/gpt-5-5-bio-bug-bounty]] — GPT-5.5 Bio Bug Bounty（バイオセキュリティリスクの公開評価プログラム）
+- [[wiki/ubuntu-26-04-lts]] — Ubuntu 26.04 LTS Resolute Raccoon（Linux 7.0・CUDA標準収録・Wayland完全移行）
+- [[wiki/legalize-es]] — legalize-es（スペイン8,600法律をMarkdown+GitHubで公開・Claude Codeで4時間開発）
+- [[wiki/virtucamera-2]] — VirtuCamera 2（スマートフォン→バーチャルカメラ・Blender/Maya/Houdini等対応）
+- [[wiki/dashy]] — Dashy（セルフホスト型オープンソースダッシュボード・Docker対応・無料）
 
 ## Concept (41)
 
@@ -163,7 +172,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/go-pqc-tls]] — Go 1.24 のデフォルト TLS に耐量子暗号（X25519MLKEM768）が有効化
 - [[wiki/deep-learning-theory]] — 深層学習の科学理論 "Learning Mechanics"（Simon ら、arXiv 2026年4月）
 
-## How-to (9)
+## How-to (12)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -174,15 +183,19 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-tmux-session]] — Claude Code + tmux でターミナルを閉じても実行継続する方法
 - [[wiki/n8n-rss-discord-automation]] — n8n で RSS ニュースを自動翻訳・要約して Discord 通知する方法
 - [[wiki/claude-code-intro-guide]] — Claude Code 入門ガイド（初心者向け・機能総覧）
+- [[wiki/ai-parallel-worktree]] — git worktree × tmux でClaude/Codex/Gemini並列開発（衝突回避）
+- [[wiki/gpt-image-2-ui-prompts]] — gpt-image-2 UI生成プロンプトテンプレート5選（SaaS/LP/モバイル/ロゴ/スライド）
+- [[wiki/gemini-gem-drive-chatbot]] — Gemini GemによるGoogle Drive社内チャットボット（コーディング不要・正答率4倍）
 
-## Reference (4)
+## Reference (5)
 
 - [[wiki/claude-code-action-modes]] — Tag Mode と Agent Mode の詳細比較・移行ガイド
 - [[wiki/claude-code-action-tools]] — allowedTools と WebSearch/WebFetch の有効化方法
 - [[wiki/claude-code-hooks-events]] — Claude Code Hooks 各イベントの入出力仕様
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
+- [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (58)
+## Insight (66)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -241,8 +254,15 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-opus47-best-practices]] — Opus 4.7 時代にやめるべき Claude Code の使い方 6 選
 - [[wiki/gpt-5-5-api-release]] — GPT-5.5 API 公開（100万トークン対応、2026年4月24日）
 - [[wiki/claude-code-db-design-workflow]] — Claude Code とのペア DB 設計ワークフロー（4ステップ）
+- [[wiki/claude-codex-planner-executor]] — Claude Code = planner・Codex CLI = executor（3ヶ月実測・役割分担）
+- [[wiki/claude-code-tokenocalypse]] — Claude Code v2.1.88 Tokenocalypse（トークン3〜50倍爆発・FinOps防衛4本柱）
+- [[wiki/renue-claude-code-security-exercise]] — renue全社員Claude Codeでセキュリティ演習（ECサイトハッキング14脆弱性）
+- [[wiki/anthropic-ai-jobs-impact]] — Anthropic調査：AI雇用影響（81,000人・プログラマー高リスク・生産性パラドックス）
+- [[wiki/palantir-ethics-controversy]] — パランティア社員の倫理的葛藤（移民取り締まり支援・イラン攻撃関与疑惑）
+- [[wiki/crypto-human-trafficking]] — 暗号通貨と人身売買の爆発的増加（2025年前年比85%増・Tether決済）
+- [[wiki/meta-employee-keylogging]] — Meta社員キーボード・マウス操作データ強制収集（AIエージェント学習用）
 
-## Comparison (3)
+## How-to (12)
 
 - [[wiki/chart-mcp-server-comparison]] — Chart MCP サーバー候補の比較（AntV, ECharts, Vega-Lite, Chart.js）
 - [[wiki/markdown-knowledge-base-tools-comparison]] — Obsidian 代替ツールの比較

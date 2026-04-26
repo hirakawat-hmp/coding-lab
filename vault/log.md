@@ -1,5 +1,34 @@
 # Log
 
+## [2026-04-26] digest | 2026-04-26 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのためスキップ
+- 直近 24 時間以内の記事から 20 件を選別（Claude Code実践知・AI倫理社会問題・Ubuntu/ツール群が主軸）
+- 新規 raw ファイル 20 件を保存（`vault/raw/2026-04-25-*.md` 19件 + `vault/raw/2026-04-26-*.md` 1件）
+- 新規 wiki ページ 20 件を作成：
+  - `vault/wiki/anthropic-project-deal.md` — Anthropic Project Deal エージェント市場実験（entity）
+  - `vault/wiki/claude-code-hooks-book-2026.md` — Claude Code Hooks書籍（entity）
+  - `vault/wiki/claude-codex-planner-executor.md` — Claude Code/Codex役割分担（insight）
+  - `vault/wiki/ai-parallel-worktree.md` — AI並列開発git worktree（how-to）
+  - `vault/wiki/google-agents-cli.md` — Google agents-cli（entity）
+  - `vault/wiki/claude-code-tokenocalypse.md` — Tokenocalypse事件（troubleshooting）
+  - `vault/wiki/microsoft-apm.md` — Microsoft APM（entity）
+  - `vault/wiki/gpt-5-5-bio-bug-bounty.md` — GPT-5.5 Bio Bug Bounty（entity）
+  - `vault/wiki/gpt-image-2-ui-prompts.md` — gpt-image-2 UIプロンプト集（how-to）
+  - `vault/wiki/renue-claude-code-security-exercise.md` — renueセキュリティ演習（insight）
+  - `vault/wiki/anthropic-ai-jobs-impact.md` — Anthropic AI雇用影響調査（insight）
+  - `vault/wiki/ubuntu-26-04-lts.md` — Ubuntu 26.04 LTS（entity）
+  - `vault/wiki/legalize-es.md` — legalize-esスペイン法律Git公開（entity）
+  - `vault/wiki/palantir-ethics-controversy.md` — Palantir倫理問題（insight）
+  - `vault/wiki/crypto-human-trafficking.md` — 暗号通貨と人身売買（insight）
+  - `vault/wiki/virtucamera-2.md` — VirtuCamera 2（entity）
+  - `vault/wiki/gemini-gem-drive-chatbot.md` — Gemini Gem Drive Chatbot（how-to）
+  - `vault/wiki/dashy.md` — Dashy（entity）
+  - `vault/wiki/usb-cheat-sheet.md` — USB規格チートシート（reference）
+  - `vault/wiki/meta-employee-keylogging.md` — Meta社員データ収集（insight）
+- `vault/newsletters/2026-04-26.md` を作成（20 トピック集約）
+- `vault/index.md` を更新（Entity 131、How-to 12、Reference 5、Insight 66）
+
 ## [2026-04-25] digest | 2026-04-25 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
   ※ Hugging Face Daily Papers は 403（前日と同様）、Google Cloud Blog はエラー、Bloomberg は 403 のため CNBC/TechCrunch で補完、Linux Foundation 記事は文字化けのため除外
