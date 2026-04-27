@@ -1,5 +1,30 @@
 # Log
 
+## [2026-04-27] digest | 2026-04-27 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー、BBC は fetch 不可のためソース要約で代替
+- 直近 24 時間以内の記事から 13 件を選別（AI エージェントツール・言語処理系最適化・セキュリティ・ハードウェア・スポーツ科学が主軸）
+- 新規 raw ファイル 12 件を保存（`vault/raw/2026-04-27-*.md`）
+- 新規 wiki ページ 12 件を作成：
+  - `vault/wiki/claude-code-precompact-hook.md` — PreCompact Hook による auto-compact 制御（concept）
+  - `vault/wiki/codex-automations.md` — OpenAI Codex Automations AI 秘書（entity）
+  - `vault/wiki/llm-cap-theorem-design.md` — LLM アプリの CAP 定理的設計（concept）
+  - `vault/wiki/line-ai-agent-entry.md` — LINE を AI エージェント入口にする（how-to）
+  - `vault/wiki/claude-design-quickstart.md` — Claude Design 初稿爆速ガイド（how-to）
+  - `vault/wiki/ruby-spinel.md` — Matz 作 Ruby AOT コンパイラ Spinel（entity）
+  - `vault/wiki/ai-vuln-deep-structure-map.md` — Deep Structure Map 脆弱性特定手法（concept）
+  - `vault/wiki/difit.md` — AI コード差分レビュー OSS（entity）
+  - `vault/wiki/hitachi-edge-ai-chip.md` — 日立エッジ AI 半導体（entity）
+  - `vault/wiki/tokenmaxxing.md` — Tokenmaxxing 概念（concept）
+  - `vault/wiki/sabi-bci.md` — Sabi BCI ニット帽型脳波デバイス（entity）
+  - `vault/wiki/sawe-sub2h-marathon.md` — 公式初サブ2時間マラソン（insight）
+- 既存 wiki ページ 2 件を更新：
+  - `vault/wiki/typescript-7-beta.md` — Publickey ソース追加
+  - `vault/wiki/claude-design.md` — Quickstart ガイドへの参照を追記
+- `vault/tags.md` に `science/neuroscience`・`science/sports` を追加
+- `vault/newsletters/2026-04-27.md` を作成（13 トピック集約）
+- `vault/index.md` を更新（Entity 136、Concept 45、How-to 14、Insight 67、Comparison 3）
+
 ## [2026-04-26] digest | 2026-04-26 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラーのためスキップ

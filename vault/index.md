@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (131)
+## Entity (136)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -127,8 +127,13 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/legalize-es]] — legalize-es（スペイン8,600法律をMarkdown+GitHubで公開・Claude Codeで4時間開発）
 - [[wiki/virtucamera-2]] — VirtuCamera 2（スマートフォン→バーチャルカメラ・Blender/Maya/Houdini等対応）
 - [[wiki/dashy]] — Dashy（セルフホスト型オープンソースダッシュボード・Docker対応・無料）
+- [[wiki/codex-automations]] — OpenAI Codex Automations（cron 定期実行・90+ プラグインで AI 秘書構築）
+- [[wiki/ruby-spinel]] — Matz 作 Ruby AOT コンパイラ Spinel（Prism → C → ネイティブバイナリ）
+- [[wiki/difit]] — difit（AI 生成コード差分をブラウザでレビューする OSS、3 週間で 1000 Star）
+- [[wiki/hitachi-edge-ai-chip]] — 日立エッジ AI 半導体 HMAX Industry（GPU 比消費電力効率 10 倍以上・3×3.3mm）
+- [[wiki/sabi-bci]] — Sabi BCI ニット帽型脳波デバイス（70,000+ センサー・思考をテキスト変換・2026年内発売予定）
 
-## Concept (41)
+## Concept (45)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -171,8 +176,12 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/llm-over-editing]] — AIコード編集モデルの過度な書き換え問題（Over-editing）と測定方法
 - [[wiki/go-pqc-tls]] — Go 1.24 のデフォルト TLS に耐量子暗号（X25519MLKEM768）が有効化
 - [[wiki/deep-learning-theory]] — 深層学習の科学理論 "Learning Mechanics"（Simon ら、arXiv 2026年4月）
+- [[wiki/claude-code-precompact-hook]] — Claude Code auto-compact への PreCompact Hook 介入（exit 2 で圧縮中止）
+- [[wiki/llm-cap-theorem-design]] — LLM アプリ設計の CAP 定理（一貫性・可用性・価格の 3 択トレードオフ）
+- [[wiki/ai-vuln-deep-structure-map]] — Deep Structure Map による AI 脆弱性特定（コードをグラフ化して Source→Sink を探索）
+- [[wiki/tokenmaxxing]] — Tokenmaxxing（トークン消費最大化という業界概念・NVIDIA 推進・HubSpot 批判）
 
-## How-to (12)
+## How-to (14)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -186,6 +195,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/ai-parallel-worktree]] — git worktree × tmux でClaude/Codex/Gemini並列開発（衝突回避）
 - [[wiki/gpt-image-2-ui-prompts]] — gpt-image-2 UI生成プロンプトテンプレート5選（SaaS/LP/モバイル/ロゴ/スライド）
 - [[wiki/gemini-gem-drive-chatbot]] — Gemini GemによるGoogle Drive社内チャットボット（コーディング不要・正答率4倍）
+- [[wiki/line-ai-agent-entry]] — LINE を AI エージェント入口にする（Messaging API / LIFF / MCP Server の使い分け）
+- [[wiki/claude-design-quickstart]] — Claude Design で初稿爆速作成（Zenn book ベースの実践ガイド）
 
 ## Reference (5)
 
@@ -195,7 +206,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (66)
+## Insight (67)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -261,8 +272,9 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/palantir-ethics-controversy]] — パランティア社員の倫理的葛藤（移民取り締まり支援・イラン攻撃関与疑惑）
 - [[wiki/crypto-human-trafficking]] — 暗号通貨と人身売買の爆発的増加（2025年前年比85%増・Tether決済）
 - [[wiki/meta-employee-keylogging]] — Meta社員キーボード・マウス操作データ強制収集（AIエージェント学習用）
+- [[wiki/sawe-sub2h-marathon]] — 公式競技マラソン初のサブ2時間達成（Sebastian Sawe・Adidas Evo3・2026-04-26）
 
-## How-to (12)
+## Comparison (3)
 
 - [[wiki/chart-mcp-server-comparison]] — Chart MCP サーバー候補の比較（AntV, ECharts, Vega-Lite, Chart.js）
 - [[wiki/markdown-knowledge-base-tools-comparison]] — Obsidian 代替ツールの比較

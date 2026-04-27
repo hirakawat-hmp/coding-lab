@@ -6,8 +6,9 @@ tags:
   - industry/tech
 sources:
   - "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/"
+  - "https://www.publickey1.jp/blog/26/typescript_70typescriptgo10.html"
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-27
 ---
 
 # TypeScript 7.0 Beta

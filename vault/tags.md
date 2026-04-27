@@ -242,6 +242,8 @@ AI エージェントや開発の **フレームワーク**。ライブラリ単
 | `science/biology` | 生物学、生命科学、ゲノム研究 |
 | `science/physics` | 物理学、光学、量子技術 |
 | `science/space` | 宇宙科学、宇宙探査、NASA |
+| `science/neuroscience` | 神経科学、BCI、脳波・神経インターフェイス |
+| `science/sports` | スポーツ科学、パフォーマンス計測、ウェアラブル |
 
 ### Crypto
 
