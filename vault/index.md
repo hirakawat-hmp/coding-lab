@@ -132,8 +132,16 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/difit]] — difit（AI 生成コード差分をブラウザでレビューする OSS、3 週間で 1000 Star）
 - [[wiki/hitachi-edge-ai-chip]] — 日立エッジ AI 半導体 HMAX Industry（GPU 比消費電力効率 10 倍以上・3×3.3mm）
 - [[wiki/sabi-bci]] — Sabi BCI ニット帽型脳波デバイス（70,000+ センサー・思考をテキスト変換・2026年内発売予定）
+- [[wiki/microsoft-openai-2026-partnership]] — Microsoft-OpenAI 提携改定（2026年4月）：マルチクラウド解禁・独占収益分配終了
+- [[wiki/github-copilot-usage-billing]] — GitHub Copilot 利用量ベース課金（2026年6月移行・GitHub AI Credits）
+- [[wiki/amazon-bedrock-agentcore]] — Amazon Bedrock AgentCore Managed Harness（コード不要エージェント構築・2026年4月プレビュー）
+- [[wiki/robot-designer-blender]] — Blender Robot Designer（Geometry Nodes プロシージャル・10分でリギング済みロボット生成）
+- [[wiki/light-propagation-volumes-ue5]] — Light Propagation Volumes GI v1.0（UE5向け軽量・即時反応GIプラグイン）
+- [[wiki/openai-symphony]] — OpenAI Symphony（Issue トラッカーをエージェントシステムに変換するOSS仕様）
+- [[wiki/openai-five-principles-2026]] — OpenAI 5つの原則（Sam Altman 公開・AGIガバナンスフレームワーク）
+- [[wiki/elevenlabs-scribe-v2]] — ElevenLabs Scribe v2 Realtime（150ms・90言語・$0.28/時間〜リアルタイムSTT）
 
-## Concept (45)
+## Concept (48)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -180,8 +188,11 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/llm-cap-theorem-design]] — LLM アプリ設計の CAP 定理（一貫性・可用性・価格の 3 択トレードオフ）
 - [[wiki/ai-vuln-deep-structure-map]] — Deep Structure Map による AI 脆弱性特定（コードをグラフ化して Source→Sink を探索）
 - [[wiki/tokenmaxxing]] — Tokenmaxxing（トークン消費最大化という業界概念・NVIDIA 推進・HubSpot 批判）
+- [[wiki/agentic-uat]] — Agentic UAT（AIエージェントがエンドユーザーを演じて仕様充足を検証するテスト手法）
+- [[wiki/genai-shift-left-testing]] — 生成AIによるシフトレフト（仕様レベルTDD・コード実装前にバグを潰す）
+- [[wiki/ast-graph-vulnerability-detection]] — AST+グラフ理論による脆弱性検出（Deep Structure Map・Source→Sink 導通）
 
-## How-to (14)
+## How-to (15)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -197,6 +208,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/gemini-gem-drive-chatbot]] — Gemini GemによるGoogle Drive社内チャットボット（コーディング不要・正答率4倍）
 - [[wiki/line-ai-agent-entry]] — LINE を AI エージェント入口にする（Messaging API / LIFF / MCP Server の使い分け）
 - [[wiki/claude-design-quickstart]] — Claude Design で初稿爆速作成（Zenn book ベースの実践ガイド）
+- [[wiki/copilot-studio-mcp-security]] — Copilot Studio MCP セキュリティ対策（DLPポリシー・URL単位許可）
 
 ## Reference (5)
 
@@ -206,7 +218,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (67)
+## Insight (71)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -273,6 +285,10 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/crypto-human-trafficking]] — 暗号通貨と人身売買の爆発的増加（2025年前年比85%増・Tether決済）
 - [[wiki/meta-employee-keylogging]] — Meta社員キーボード・マウス操作データ強制収集（AIエージェント学習用）
 - [[wiki/sawe-sub2h-marathon]] — 公式競技マラソン初のサブ2時間達成（Sebastian Sawe・Adidas Evo3・2026-04-26）
+- [[wiki/ai-agent-db-destruction-pocketos]] — AIエージェントが本番DB9秒で破壊（PocketOS・Claude Opus 4.6 on Cursor・3ヶ月データ喪失）
+- [[wiki/reporting-engine-ai-pivot]] — 帳票エンジン会社がGUIデザイナーを凍結してAIに全振り（デンキヤギ・4年間の開発を捨てた判断）
+- [[wiki/claude-orchestrator-reflection]] — Claude Codeで作ったAIオーケストレータを使わなくなった理由（複雑化・モデル進化・ツール拡充）
+- [[wiki/ai-gaming-impact-2026]] — AIのゲーム業界打撃（RAMaggedon・次世代コンソール$900〜1200・45,000人失業）
 
 ## Comparison (3)
 

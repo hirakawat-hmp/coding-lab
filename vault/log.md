@@ -1,5 +1,31 @@
 # Log
 
+## [2026-04-28] digest | 2026-04-28 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
+  ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー、OGP 画像取得不可のためスキップ
+- 直近 24 時間以内の記事から 16 件を選別（AI 業界構造変化・エージェントリスク・国内AI開発実践知・3D制作ツールが主軸）
+- 新規 raw ファイル 14 件を保存（`vault/raw/2026-04-28-*.md`）
+- 新規 wiki ページ 16 件を作成：
+  - `vault/wiki/microsoft-openai-2026-partnership.md` — Microsoft-OpenAI 提携改定（entity）
+  - `vault/wiki/github-copilot-usage-billing.md` — GitHub Copilot 利用量ベース課金移行（entity）
+  - `vault/wiki/ai-agent-db-destruction-pocketos.md` — AIエージェントが本番DB破壊した事例（insight）
+  - `vault/wiki/openai-symphony.md` — OpenAI Symphony オーケストレーション仕様（entity）
+  - `vault/wiki/openai-five-principles-2026.md` — OpenAI 5つの原則（entity）
+  - `vault/wiki/elevenlabs-scribe-v2.md` — ElevenLabs Scribe v2 リアルタイムSTT（entity）
+  - `vault/wiki/agentic-uat.md` — AIエージェントによる UAT 手法（concept）
+  - `vault/wiki/reporting-engine-ai-pivot.md` — 帳票エンジン会社のAI全振り事例（insight）
+  - `vault/wiki/genai-shift-left-testing.md` — 生成AIによるシフトレフト（concept）
+  - `vault/wiki/claude-orchestrator-reflection.md` — AIオーケストレータを使わなくなった理由（insight）
+  - `vault/wiki/ast-graph-vulnerability-detection.md` — AST+グラフ脆弱性検出（concept）
+  - `vault/wiki/copilot-studio-mcp-security.md` — Copilot Studio MCP セキュリティ（how-to）
+  - `vault/wiki/amazon-bedrock-agentcore.md` — Amazon Bedrock AgentCore（entity）
+  - `vault/wiki/robot-designer-blender.md` — Blender Robot Designer（entity）
+  - `vault/wiki/ai-gaming-impact-2026.md` — AIのゲーム業界打撃（insight）
+  - `vault/wiki/light-propagation-volumes-ue5.md` — UE5 LPV GI プラグイン（entity）
+- `vault/tags.md` に `dev/testing` タグを追加
+- `vault/newsletters/2026-04-28.md` を作成（16 トピック集約）
+- `vault/index.md` を更新（Entity 144、Concept 48、How-to 15、Insight 71、Reference 5）
+
 ## [2026-04-27] digest | 2026-04-27 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー、BBC は fetch 不可のためソース要約で代替
