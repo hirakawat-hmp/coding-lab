@@ -1,5 +1,28 @@
 # Log
 
+## [2026-04-29] digest | 2026-04-29 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ
+- 直近 24 時間以内の記事から 14 件を選別（OpenAI-AWS 提携拡大・セキュリティリスク集中・AIエージェント開発ワークフロー再設計・BCI医療応用が主軸）
+- 新規 raw ファイル 14 件を保存（`vault/raw/2026-04-28-*.md`, `vault/raw/2026-04-29-*.md`）
+- 新規 wiki ページ 14 件を作成：
+  - `vault/wiki/openai-aws-bedrock-2026.md` — OpenAI × AWS Bedrock（entity）
+  - `vault/wiki/github-rce-cve-2026-3854.md` — GitHub RCE CVE-2026-3854（entity）
+  - `vault/wiki/warp-terminal-oss.md` — Warp ターミナル OSS 化（entity）
+  - `vault/wiki/ghostty-leaving-github.md` — Ghostty の GitHub 離脱（insight）
+  - `vault/wiki/github-actions-security-weaklink.md` — GitHub Actions セキュリティ問題（insight）
+  - `vault/wiki/claude-creative-connectors.md` — Claude クリエイティブコネクタ（entity）
+  - `vault/wiki/corpus2skill-hierarchical-rag.md` — Corpus2Skill 階層型 RAG（concept）
+  - `vault/wiki/mcp-gateway-google-sa.md` — MCP ゲートウェイ Google SA 設計（how-to）
+  - `vault/wiki/ccgate.md` — ccgate Permission 自動化 OSS（entity）
+  - `vault/wiki/ai-tool-security-incidents-8-2026.md` — AI ツールセキュリティインシデント 8 選（insight）
+  - `vault/wiki/ai-self-merge-policy.md` — AI 自己マージポリシー（insight）
+  - `vault/wiki/motif-neurotech-depression-bci.md` — Motif Neurotech 脳インプラント FDA 承認（entity）
+  - `vault/wiki/chatgpt-ads-full-attribution.md` — ChatGPT 広告属性チェーン解析（insight）
+  - `vault/wiki/google-colab-mcp-server.md` — Google Colab MCP Server（entity）
+- `vault/newsletters/2026-04-29.md` を作成（14 トピック集約）
+- `vault/index.md` を更新（Entity: 136→143、Concept: 48→49、How-to: 15→16、Insight: 71→76）
+
 ## [2026-04-28] digest | 2026-04-28 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, 3D人, Hugging Face Daily Papers）
   ※ Hugging Face Daily Papers は 403、Google Cloud Blog はエラー、OGP 画像取得不可のためスキップ

@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (136)
+## Entity (143)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -140,8 +140,15 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/openai-symphony]] — OpenAI Symphony（Issue トラッカーをエージェントシステムに変換するOSS仕様）
 - [[wiki/openai-five-principles-2026]] — OpenAI 5つの原則（Sam Altman 公開・AGIガバナンスフレームワーク）
 - [[wiki/elevenlabs-scribe-v2]] — ElevenLabs Scribe v2 Realtime（150ms・90言語・$0.28/時間〜リアルタイムSTT）
+- [[wiki/openai-aws-bedrock-2026]] — OpenAI × AWS Bedrock 提携拡大（GPT-5.5・Codex・Managed Agents Limited Preview）
+- [[wiki/github-rce-cve-2026-3854]] — GitHub RCE 脆弱性 CVE-2026-3854（babeld X-Stat インジェクション・CVSS 8.7）
+- [[wiki/warp-terminal-oss]] — Warp ターミナルのオープンソース化（AGPL・Oz エージェント・OpenAI スポンサー）
+- [[wiki/claude-creative-connectors]] — Claude クリエイティブコネクタ（Blender・Photoshop 等 8 ツール直接制御）
+- [[wiki/ccgate]] — ccgate：AI コーディングエージェントの Permission 確認を 97% 自動化する OSS CLI
+- [[wiki/motif-neurotech-depression-bci]] — Motif Neurotech 脳インプラント（うつ病 TRD 向け FDA 臨床試験承認）
+- [[wiki/google-colab-mcp-server]] — Google Colab MCP Server（AI エージェントからクラウド計算資源を活用）
 
-## Concept (48)
+## Concept (49)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -191,8 +198,9 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/agentic-uat]] — Agentic UAT（AIエージェントがエンドユーザーを演じて仕様充足を検証するテスト手法）
 - [[wiki/genai-shift-left-testing]] — 生成AIによるシフトレフト（仕様レベルTDD・コード実装前にバグを潰す）
 - [[wiki/ast-graph-vulnerability-detection]] — AST+グラフ理論による脆弱性検出（Deep Structure Map・Source→Sink 導通）
+- [[wiki/corpus2skill-hierarchical-rag]] — Corpus2Skill：ベクトル DB 不要の階層型 RAG（k-means クラスタリング → SKILL.md / INDEX.md 構造）
 
-## How-to (15)
+## How-to (16)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -209,6 +217,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/line-ai-agent-entry]] — LINE を AI エージェント入口にする（Messaging API / LIFF / MCP Server の使い分け）
 - [[wiki/claude-design-quickstart]] — Claude Design で初稿爆速作成（Zenn book ベースの実践ガイド）
 - [[wiki/copilot-studio-mcp-security]] — Copilot Studio MCP セキュリティ対策（DLPポリシー・URL単位許可）
+- [[wiki/mcp-gateway-google-sa]] — MCP ゲートウェイと Google SA：AI への過剰権限付与を防ぐ 2 層 SA 設計
 
 ## Reference (5)
 
@@ -218,7 +227,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (71)
+## Insight (76)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -289,6 +298,11 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/reporting-engine-ai-pivot]] — 帳票エンジン会社がGUIデザイナーを凍結してAIに全振り（デンキヤギ・4年間の開発を捨てた判断）
 - [[wiki/claude-orchestrator-reflection]] — Claude Codeで作ったAIオーケストレータを使わなくなった理由（複雑化・モデル進化・ツール拡充）
 - [[wiki/ai-gaming-impact-2026]] — AIのゲーム業界打撃（RAMaggedon・次世代コンソール$900〜1200・45,000人失業）
+- [[wiki/ghostty-leaving-github]] — Ghostty が GitHub を離れる：信頼性問題の臨界点（Mitchell Hashimoto の決断）
+- [[wiki/github-actions-security-weaklink]] — GitHub Actions の 5 つの構造的脆弱性と 8 主要サプライチェーンインシデント
+- [[wiki/ai-tool-security-incidents-8-2026]] — AI ツールセキュリティ実在インシデント 8 選（M365・Lovable・Replit DB 削除等）
+- [[wiki/ai-self-merge-policy]] — AI コードレビュー自己マージポリシー（p90 リードタイム 316h→92h・Acsim 実績）
+- [[wiki/chatgpt-ads-full-attribution]] — ChatGPT 広告配信の完全な属性チェーン解析（OAIQ SDK・Cookie・SSE 注入）
 
 ## Comparison (3)
 
