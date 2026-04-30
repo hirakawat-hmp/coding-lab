@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (143)
+## Entity (151)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -147,8 +147,16 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/ccgate]] — ccgate：AI コーディングエージェントの Permission 確認を 97% 自動化する OSS CLI
 - [[wiki/motif-neurotech-depression-bci]] — Motif Neurotech 脳インプラント（うつ病 TRD 向け FDA 臨床試験承認）
 - [[wiki/google-colab-mcp-server]] — Google Colab MCP Server（AI エージェントからクラウド計算資源を活用）
+- [[wiki/cve-2026-31431-linux-kernel]] — Linux カーネル LPE 脆弱性 CVE-2026-31431（2017年〜・全主要ディストリ影響）
+- [[wiki/mistral-medium-3-5]] — Mistral Medium 3.5（128B Dense・SWE-Bench 77.6%・Open weights）
+- [[wiki/zed-1-0]] — Zed 1.0 GA（Rust製 AI ネイティブエディタ・macOS/Windows/Linux）
+- [[wiki/javascript-temporal-api]] — JavaScript Temporal API（9年の開発・Date の根本的置き換え）
+- [[wiki/zibragds-ue5]] — ZibraGDS Open Beta（UE5向け・標準比6〜10倍高速ジオメトリシーケンス再生）
+- [[wiki/liveactionaov-vfx]] — LiveActionAOV（実写映像から AI で AOV パスを自動生成・OSS）
+- [[wiki/adobe-claude-creativity-connector]] — Adobe for Creativity Connector（Claude から Adobe CC を直接操作）
+- [[wiki/bonnett-pair-tori-math]] — コンパクト・ボンネペア・トーラス（150年の幾何学定説を覆す発見）
 
-## Concept (49)
+## Concept (51)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -199,6 +207,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/genai-shift-left-testing]] — 生成AIによるシフトレフト（仕様レベルTDD・コード実装前にバグを潰す）
 - [[wiki/ast-graph-vulnerability-detection]] — AST+グラフ理論による脆弱性検出（Deep Structure Map・Source→Sink 導通）
 - [[wiki/corpus2skill-hierarchical-rag]] — Corpus2Skill：ベクトル DB 不要の階層型 RAG（k-means クラスタリング → SKILL.md / INDEX.md 構造）
+- [[wiki/fastcgi-reverse-proxy-advantage]] — FastCGI がリバースプロキシで HTTP より優れる理由（メッセージフレーミング・信頼データ分離）
+- [[wiki/lakebase-langgraph-cross-session-memory]] — セッション横断 AI エージェントメモリ設計（Lakebase × LangGraph × pgvector）
 
 ## How-to (16)
 
@@ -227,7 +237,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (76)
+## Insight (82)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -303,6 +313,12 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/ai-tool-security-incidents-8-2026]] — AI ツールセキュリティ実在インシデント 8 選（M365・Lovable・Replit DB 削除等）
 - [[wiki/ai-self-merge-policy]] — AI コードレビュー自己マージポリシー（p90 リードタイム 316h→92h・Acsim 実績）
 - [[wiki/chatgpt-ads-full-attribution]] — ChatGPT 広告配信の完全な属性チェーン解析（OAIQ SDK・Cookie・SSE 注入）
+- [[wiki/ramp-sheets-ai-exfiltration]] — Ramp Sheets AI 間接プロンプトインジェクションによる財務データ漏洩
+- [[wiki/ai-phishing-social-engineering-2026]] — AI モデル5つによるフィッシング実証（WIRED・巧妙なソーシャルエンジニアリング）
+- [[wiki/claude-cancellation-token-issues-2026]] — Claude 有料プラン解約の実態（トークン制限・品質低下・サポート不備）
+- [[wiki/kofun-yolo-elevation-ml]] — 標高データ + YOLO11n で全国前方後円墳75件を自動発見
+- [[wiki/claude-code-cre-support-automation]] — 非技術系 CRE が Claude Code でサポート調査を完全自動化した実録
+- [[wiki/github-crisis-2026-04]] — GitHub の6日間の危機（2026年4月23〜29日・ガバナンス/稼働率/セキュリティ/コスト）
 
 ## Comparison (3)
 
@@ -315,6 +331,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 ## Decision
 
 ## Troubleshooting
+
+- [[wiki/claude-code-hermes-billing-bug]] — HERMES.md コミットメッセージによる課金ルーティングバグ（v2.1.119・$200+損失・resolved）
 
 ## Idea
 

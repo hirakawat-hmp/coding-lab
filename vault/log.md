@@ -1,5 +1,32 @@
 # Log
 
+## [2026-04-30] digest | 2026-04-30 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey は24時間以内の記事なし
+- 直近 24 時間以内の記事から 17 件を選別（Claude Code HERMES.md 課金バグ・Linux LPE CVE・Mistral Medium 3.5・Zed 1.0 が主軸）
+- 新規 raw ファイル 13 件を保存（`vault/raw/2026-04-30-*.md`）
+- 新規 wiki ページ 17 件を作成：
+  - `vault/wiki/claude-code-hermes-billing-bug.md` — HERMES.md 課金バグ（troubleshooting）
+  - `vault/wiki/cve-2026-31431-linux-kernel.md` — Linux カーネル LPE CVE（entity）
+  - `vault/wiki/mistral-medium-3-5.md` — Mistral Medium 3.5（entity）
+  - `vault/wiki/zed-1-0.md` — Zed 1.0 GA（entity）
+  - `vault/wiki/ramp-sheets-ai-exfiltration.md` — Ramp Sheets AI 漏洩（insight）
+  - `vault/wiki/ai-phishing-social-engineering-2026.md` — AI フィッシング実証（insight）
+  - `vault/wiki/bonnett-pair-tori-math.md` — コンパクト・ボンネペア（entity）
+  - `vault/wiki/claude-cancellation-token-issues-2026.md` — Claude 解約理由（insight）
+  - `vault/wiki/fastcgi-reverse-proxy-advantage.md` — FastCGI vs HTTP（concept）
+  - `vault/wiki/kofun-yolo-elevation-ml.md` — 前方後円墳 YOLO 検出（insight）
+  - `vault/wiki/lakebase-langgraph-cross-session-memory.md` — クロスセッションメモリ設計（concept）
+  - `vault/wiki/javascript-temporal-api.md` — JavaScript Temporal API（entity）
+  - `vault/wiki/claude-code-cre-support-automation.md` — CRE 自動化実録（insight）
+  - `vault/wiki/zibragds-ue5.md` — ZibraGDS Open Beta（entity）
+  - `vault/wiki/github-crisis-2026-04.md` — GitHub 6日間の危機（insight）
+  - `vault/wiki/liveactionaov-vfx.md` — LiveActionAOV（entity）
+  - `vault/wiki/adobe-claude-creativity-connector.md` — Adobe クリエイティブコネクタ（entity）
+- `vault/newsletters/2026-04-30.md` を作成（17 トピック収録）
+- `vault/index.md` を更新（Entity 151、Concept 51、Insight 82、Troubleshooting 1）
+- `vault/tags.md` に新規タグ 2 件追加（`science/math`、`tool/zed`）
+
 ## [2026-04-29] digest | 2026-04-29 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ
