@@ -1,5 +1,34 @@
 # Log
 
+## [2026-05-01] digest | 2026-05-01 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey は24時間以内の記事なし
+- 直近 24 時間以内の記事から 20 件を選別（Claude Security公開ベータ・Shai-Hulud マルウェア・OpenClaw課金バグが主軸）
+- 新規 raw ファイル 20 件を保存（`vault/raw/2026-05-01-*.md` 3件、`vault/raw/2026-04-30-*.md` 17件）
+- 新規 wiki ページ 20 件を作成：
+  - `vault/wiki/claude-security.md` — AnthropicのAIコードセキュリティツール（entity）
+  - `vault/wiki/pytorch-lightning-shai-hulud-malware.md` — PyTorch Lightning サプライチェーン攻撃（insight）
+  - `vault/wiki/claude-code-openclaw-bug.md` — Claude Code OpenClaw課金バグ（troubleshooting）
+  - `vault/wiki/openai-advanced-account-security.md` — OpenAI高度なアカウントセキュリティ（entity）
+  - `vault/wiki/psh-shell-agent.md` — 400行shellコーディングエージェントハーネス（entity）
+  - `vault/wiki/cloudflare-ai-domain-to-deploy.md` — CloudflareのAIエージェント向けドメイン〜デプロイ自動化（entity）
+  - `vault/wiki/dna-nucleosome-ai-discovery.md` — AIがDNA定説を覆す（insight）
+  - `vault/wiki/google-agi-cognitive-framework.md` — Google DeepMind AGI 10の認知能力（concept）
+  - `vault/wiki/cve-mcp-server.md` — Claude×MCPによるCVEトリアージ自動化OSS（entity）
+  - `vault/wiki/sensenova-u1.md` — SenseTimeのVAE不要画像生成AIモデル（entity）
+  - `vault/wiki/stanford-ai-coachella-cs153.md` — Stanford「AIコーチェラ」CS153（insight）
+  - `vault/wiki/gemini-chrome-skills.md` — Gemini in Chrome Skills機能（entity）
+  - `vault/wiki/linkedin-browser-extension-scan.md` — LinkedIn 6,278種拡張スキャン問題（insight）
+  - `vault/wiki/online-age-verification-privacy.md` — 年齢確認と全国民監視インフラ（insight）
+  - `vault/wiki/zap-energy-fission-pivot.md` — Zap Energy核融合→核分裂事業参入（insight）
+  - `vault/wiki/copyfail-cve-exploit-poc.md` — CopyFail CVE EC2実証（insight）
+  - `vault/wiki/arcbrush-v1-0.md` — ArcBrush v1.0ノードベース画像編集ツール（entity）
+  - `vault/wiki/ozone-subdivs-ue5.md` — Ozone SubdivsリアルタイムUE5サブディビジョン（entity）
+  - `vault/wiki/nec-ai-record-profit-2026.md` — NEC過去最高益・AI投資強化（insight）
+  - `vault/wiki/smart-sharpen-ue5.md` — Smart Sharpen UE5シャープニングプラグイン（entity）
+- `vault/newsletters/2026-05-01.md` を作成（20 トピック収録）
+- `vault/index.md` を更新（Entity 162、Concept 52、Insight 90、Troubleshooting 2）
+
 ## [2026-04-30] digest | 2026-04-30 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey は24時間以内の記事なし

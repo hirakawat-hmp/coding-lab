@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (151)
+## Entity (162)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -155,8 +155,18 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/liveactionaov-vfx]] — LiveActionAOV（実写映像から AI で AOV パスを自動生成・OSS）
 - [[wiki/adobe-claude-creativity-connector]] — Adobe for Creativity Connector（Claude から Adobe CC を直接操作）
 - [[wiki/bonnett-pair-tori-math]] — コンパクト・ボンネペア・トーラス（150年の幾何学定説を覆す発見）
+- [[wiki/claude-security]] — AnthropicのAIコードセキュリティツール（公開ベータ・500件超の脆弱性発見実績）
+- [[wiki/openai-advanced-account-security]] — OpenAI 高度なアカウントセキュリティ機能（2026年4月30日発表）
+- [[wiki/psh-shell-agent]] — 400行shellのコーディングエージェントハーネス（curl + awk + APIキーのみ）
+- [[wiki/cloudflare-ai-domain-to-deploy]] — CloudflareとStripeが連携するAIエージェント向けドメイン取得〜デプロイ自動化
+- [[wiki/cve-mcp-server]] — Claude × MCPで27ツール×21APIを使うCVEトリアージ自動化OSS
+- [[wiki/sensenova-u1]] — SenseTimeのVAE不要・80億パラメーター・Apache 2.0の画像生成AIモデル
+- [[wiki/gemini-chrome-skills]] — Google Chrome統合AI「Skills」機能（50種以上のプリセットプロンプト）
+- [[wiki/arcbrush-v1-0]] — Albert Omoss作・75ノードノードベース画像編集ツール（基本無料）
+- [[wiki/ozone-subdivs-ue5]] — UE5向けリアルタイムサブディビジョンサーフェスプラグイン（映像・ゲーム制作向け）
+- [[wiki/smart-sharpen-ue5]] — UE5向けBlueprintベースの軽量ポストプロセスシャープニング
 
-## Concept (51)
+## Concept (52)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -209,6 +219,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/corpus2skill-hierarchical-rag]] — Corpus2Skill：ベクトル DB 不要の階層型 RAG（k-means クラスタリング → SKILL.md / INDEX.md 構造）
 - [[wiki/fastcgi-reverse-proxy-advantage]] — FastCGI がリバースプロキシで HTTP より優れる理由（メッセージフレーミング・信頼データ分離）
 - [[wiki/lakebase-langgraph-cross-session-memory]] — セッション横断 AI エージェントメモリ設計（Lakebase × LangGraph × pgvector）
+- [[wiki/google-agi-cognitive-framework]] — Google DeepMind AGI評価フレームワーク（知覚・推論・メタ認知・社会的認知等10の認知能力）
 
 ## How-to (16)
 
@@ -237,7 +248,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (82)
+## Insight (90)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -319,6 +330,14 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/kofun-yolo-elevation-ml]] — 標高データ + YOLO11n で全国前方後円墳75件を自動発見
 - [[wiki/claude-code-cre-support-automation]] — 非技術系 CRE が Claude Code でサポート調査を完全自動化した実録
 - [[wiki/github-crisis-2026-04]] — GitHub の6日間の危機（2026年4月23〜29日・ガバナンス/稼働率/セキュリティ/コスト）
+- [[wiki/pytorch-lightning-shai-hulud-malware]] — PyTorch LightningへのAI訓練ライブラリサプライチェーン攻撃（Claude Code SessionStart hook悪用）
+- [[wiki/stanford-ai-coachella-cs153]] — Stanford「AIコーチェラ」CS153（OpenAI/NVIDIA CEO登壇・権力とアカデミアの交差点）
+- [[wiki/linkedin-browser-extension-scan]] — LinkedInが6,278種のブラウザ拡張をスキャン・暗号化して全リクエストに付加（APFC指紋採集）
+- [[wiki/online-age-verification-privacy]] — オンライン年齢確認義務化が全国民監視インフラになりうる問題
+- [[wiki/zap-energy-fission-pivot]] — 核融合スタートアップZap Energyが核分裂（SMR）事業に参入（AI電力需要対応）
+- [[wiki/copyfail-cve-exploit-poc]] — CopyFail CVE-2026-31431のEC2/Ubuntu 22.04での実証（ページキャッシュ汚染）
+- [[wiki/nec-ai-record-profit-2026]] — NEC過去最高益3,582億円・AI投資数百億円予告（Anthropic連携の成果）
+- [[wiki/dna-nucleosome-ai-discovery]] — AIがDNA「細胞に閉じ込められていない」という定説を覆す（ヌクレオソーム85%が部分露出）
 
 ## Comparison (3)
 
@@ -333,6 +352,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 ## Troubleshooting
 
 - [[wiki/claude-code-hermes-billing-bug]] — HERMES.md コミットメッセージによる課金ルーティングバグ（v2.1.119・$200+損失・resolved）
+- [[wiki/claude-code-openclaw-bug]] — OpenClaw言及コミットによる課金ルート変更バグ（investigating）
 
 ## Idea
 
