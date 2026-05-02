@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (162)
+## Entity (172)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -165,8 +165,14 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/arcbrush-v1-0]] — Albert Omoss作・75ノードノードベース画像編集ツール（基本無料）
 - [[wiki/ozone-subdivs-ue5]] — UE5向けリアルタイムサブディビジョンサーフェスプラグイン（映像・ゲーム制作向け）
 - [[wiki/smart-sharpen-ue5]] — UE5向けBlueprintベースの軽量ポストプロセスシャープニング
+- [[wiki/gemini-embedding-2]] — Gemini Embedding 2（初のマルチモーダル埋め込みモデル、テキスト/画像/動画/音声/PDF対応）
+- [[wiki/spotify-verified-artist-badge]] — Spotify Verified by Spotify（人間アーティストとAI生成コンテンツを区別する認証バッジ）
+- [[wiki/nvidia-nemoclaw]] — NVIDIA NemoClaw（AIエージェント向けセキュリティスタック、OpenClaw + エンタープライズセキュリティ）
+- [[wiki/shadershift-ue5]] — ShaderShift（エンジン変更不要のUE5シェーダーカスタマイズプラグイン、Hidden Empire製）
+- [[wiki/lib0xc]] — lib0xc（Microsoft製C言語安全プログラミングAPIセット、-fbounds-safety対応）
+- [[wiki/understand-anything]] — Understand-Anything（コードベースをインタラクティブな知識グラフに変換するOSSプラグイン、Stars 10.1k）
 
-## Concept (52)
+## Concept (54)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -220,8 +226,10 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/fastcgi-reverse-proxy-advantage]] — FastCGI がリバースプロキシで HTTP より優れる理由（メッセージフレーミング・信頼データ分離）
 - [[wiki/lakebase-langgraph-cross-session-memory]] — セッション横断 AI エージェントメモリ設計（Lakebase × LangGraph × pgvector）
 - [[wiki/google-agi-cognitive-framework]] — Google DeepMind AGI評価フレームワーク（知覚・推論・メタ認知・社会的認知等10の認知能力）
+- [[wiki/claude-code-three-layer-design]] — Claude Code 3層設計パターン（CLAUDE.md/Skills/Agents の責務分離）
+- [[wiki/karpathy-agentic-engineering]] — エージェントエンジニアリング（Karpathy提唱・バイブコーディングの先にある専門規律）
 
-## How-to (16)
+## How-to (17)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -239,6 +247,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-design-quickstart]] — Claude Design で初稿爆速作成（Zenn book ベースの実践ガイド）
 - [[wiki/copilot-studio-mcp-security]] — Copilot Studio MCP セキュリティ対策（DLPポリシー・URL単位許可）
 - [[wiki/mcp-gateway-google-sa]] — MCP ゲートウェイと Google SA：AI への過剰権限付与を防ぐ 2 層 SA 設計
+- [[wiki/mcp-token-optimization]] — MCPサーバーのトークン消費を70〜90%削減する設計パターン（外部ストレージ退避）
 
 ## Reference (5)
 
@@ -248,7 +257,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (90)
+## Insight (97)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -338,6 +347,12 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/copyfail-cve-exploit-poc]] — CopyFail CVE-2026-31431のEC2/Ubuntu 22.04での実証（ページキャッシュ汚染）
 - [[wiki/nec-ai-record-profit-2026]] — NEC過去最高益3,582億円・AI投資数百億円予告（Anthropic連携の成果）
 - [[wiki/dna-nucleosome-ai-discovery]] — AIがDNA「細胞に閉じ込められていない」という定説を覆す（ヌクレオソーム85%が部分露出）
+- [[wiki/moneyforward-github-breach-2026]] — マネーフォワードGitHub不正アクセス事件（2026年5月・370件流出・本番認証キー漏洩）
+- [[wiki/ubuntu-cross-border-attack-2026]] — Ubuntu インフラへの持続的クロスボーダー攻撃（2026年5月・1日以上停止）
+- [[wiki/gpt55-cyber-capabilities-eval]] — GPT-5.5 vs Claude Mythos サイバー攻撃能力評価（英AISI・CTF 71.4% vs 68.6%）
+- [[wiki/tech-ceo-ai-avatars]] — テックCEOのAI分身戦略（ザッカーバーグ/ドーシー・権限拡張と統制強化）
+- [[wiki/wall-street-ai-anxiety]] — ウォール街を蝕むAI不安（ダウ800pt下落・AI Psychosis）
+- [[wiki/ai-assistant-internal-trial-2026]] — 社内AIアシスタント3か月試験運用の実録（松尾研究所・75%が週30分短縮）
 
 ## Comparison (3)
 

@@ -1,5 +1,30 @@
 # Log
 
+## [2026-05-02] digest | 2026-05-02 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey・OpenAI News は24時間以内の新規記事なし
+- 直近 24 時間以内の記事から 15 件を選別（マネーフォワード不正アクセス・Ubuntu攻撃・GPT-5.5サイバー能力が主軸）
+- tags.md に新タグを追加：`security/incident`、`security/malware`、`dev/c`
+- 新規 raw ファイル 15 件を保存（`vault/raw/2026-05-02-*.md`）
+- 新規 wiki ページ 15 件を作成：
+  - `vault/wiki/moneyforward-github-breach-2026.md` — マネーフォワードGitHub不正アクセス事件（insight）
+  - `vault/wiki/ubuntu-cross-border-attack-2026.md` — Ubuntu インフラへの持続的クロスボーダー攻撃（insight）
+  - `vault/wiki/gpt55-cyber-capabilities-eval.md` — GPT-5.5 vs Claude Mythos サイバー攻撃能力評価（insight）
+  - `vault/wiki/claude-code-three-layer-design.md` — Claude Code 3層設計パターン（concept）
+  - `vault/wiki/mcp-token-optimization.md` — MCPトークン消費70〜90%削減パターン（how-to）
+  - `vault/wiki/karpathy-agentic-engineering.md` — エージェントエンジニアリング（concept）
+  - `vault/wiki/gemini-embedding-2.md` — Gemini Embedding 2 GA（entity）
+  - `vault/wiki/spotify-verified-artist-badge.md` — Spotify 人間アーティスト認証バッジ（entity）
+  - `vault/wiki/nvidia-nemoclaw.md` — NVIDIA NemoClaw AIエージェント特権管理スタック（entity）
+  - `vault/wiki/tech-ceo-ai-avatars.md` — テックCEOのAI分身戦略（insight）
+  - `vault/wiki/wall-street-ai-anxiety.md` — ウォール街のAI不安（insight）
+  - `vault/wiki/ai-assistant-internal-trial-2026.md` — 社内AIアシスタント3か月試験運用（insight）
+  - `vault/wiki/understand-anything.md` — Understand-Anything コードグラフ化ツール（entity）
+  - `vault/wiki/shadershift-ue5.md` — ShaderShift UE5シェーダープラグイン（entity）
+  - `vault/wiki/lib0xc.md` — lib0xc Microsoft製C言語安全API（entity）
+- `vault/newsletters/2026-05-02.md` を作成（15 トピック収録）
+- `vault/index.md` を更新（Entity 172、Concept 54、How-to 17、Insight 97）
+
 ## [2026-05-01] digest | 2026-05-01 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey は24時間以内の記事なし
