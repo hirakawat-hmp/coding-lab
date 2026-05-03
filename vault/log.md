@@ -1,5 +1,30 @@
 # Log
 
+## [2026-05-03] digest | 2026-05-03 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey・OpenAI News・3D人は24時間以内の新規記事なし（最新が4/26以前）
+- 直近 24 時間以内の記事から 15 件を選別（ドーキンスAI意識論・Stanford AI Index 2026・Claude Code最適化が主軸）
+- 新規 raw ファイル 15 件を保存（`vault/raw/2026-05-03-*.md`）
+- 新規 wiki ページ 15 件を作成：
+  - `vault/wiki/richard-dawkins-claude-consciousness.md` — ドーキンスが確信したClaudeの意識と論争（insight）
+  - `vault/wiki/stanford-ai-index-2026.md` — Stanford AI Index 2026（entity）
+  - `vault/wiki/claude-code-project-conventions.md` — プロジェクト規約自動抽出スキル（how-to）
+  - `vault/wiki/claude-code-token-reduction-5tips.md` — トークン消費5テクニック（how-to）
+  - `vault/wiki/agent-harness-outside-sandbox.md` — ハーネスをサンドボックス外に置く設計（concept）
+  - `vault/wiki/vscode-copilot-coauthor-controversy.md` — VS Code Co-authored-by騒動（insight）
+  - `vault/wiki/chatgpt-turnstile-security.md` — ChatGPT Turnstileボット検知内部構造（entity）
+  - `vault/wiki/ai-professional-displacement.md` — AIと専門職雇用（insight）
+  - `vault/wiki/flue-agent-framework.md` — Flue TypeScript AIエージェントフレームワーク（entity）
+  - `vault/wiki/california-av-traffic-laws-2026.md` — カリフォルニア州AV切符制度7月施行（entity）
+  - `vault/wiki/s3-vectors-vs-opensearch.md` — S3 Vectors vs OpenSearch比較（comparison）
+  - `vault/wiki/oscars-ban-ai-performers.md` — オスカーAI俳優締め出し（insight）
+  - `vault/wiki/meta-covalen-ai-worker-layoffs.md` — Meta/Covalen AIワーカー700人解雇（entity）
+  - `vault/wiki/tsrx-ui-framework.md` — TSRX AI時代UIフレームワーク（entity）
+  - `vault/wiki/shivon-zilis-musk-openai.md` — シヴォン・ジリス：マスクvsOpenAI（entity）
+- ニュースレター `vault/newsletters/2026-05-03.md` を作成（15トピック）
+- `vault/index.md` を更新（Entity +8、Concept +1、How-to +2、Insight +4、Comparison +1）
+- `vault/log.md` に記録
+
 ## [2026-05-02] digest | 2026-05-02 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey・OpenAI News は24時間以内の新規記事なし

@@ -171,6 +171,13 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/shadershift-ue5]] — ShaderShift（エンジン変更不要のUE5シェーダーカスタマイズプラグイン、Hidden Empire製）
 - [[wiki/lib0xc]] — lib0xc（Microsoft製C言語安全プログラミングAPIセット、-fbounds-safety対応）
 - [[wiki/understand-anything]] — Understand-Anything（コードベースをインタラクティブな知識グラフに変換するOSSプラグイン、Stars 10.1k）
+- [[wiki/stanford-ai-index-2026]] — Stanford AI Index 2026（米中差2.7pt・透明性低下・ジュニア開発者雇用20%減）
+- [[wiki/chatgpt-turnstile-security]] — ChatGPT Turnstileボット検知システムの内部構造（3層・55プロパティ・2段階暗号化）
+- [[wiki/flue-agent-framework]] — Flue TypeScript AIエージェントフレームワーク（サンドボックス分離・型安全スキル）
+- [[wiki/california-av-traffic-laws-2026]] — カリフォルニア州自動運転車切符制度（2026年7月施行・製造者責任の明確化）
+- [[wiki/meta-covalen-ai-worker-layoffs]] — Meta/Covalen AIワーカー700人解雇（データアノテーター・自分たちを置き換えるAIを訓練）
+- [[wiki/tsrx-ui-framework]] — TSRX AI時代のUIコンポーネントフレームワーク（AI生成コードが壊れない設計）
+- [[wiki/shivon-zilis-musk-openai]] — シヴォン・ジリス：マスクvsOpenAI裁判のキーパーソン（非公式連絡役の実態）
 
 ## Concept (54)
 
@@ -228,6 +235,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/google-agi-cognitive-framework]] — Google DeepMind AGI評価フレームワーク（知覚・推論・メタ認知・社会的認知等10の認知能力）
 - [[wiki/claude-code-three-layer-design]] — Claude Code 3層設計パターン（CLAUDE.md/Skills/Agents の責務分離）
 - [[wiki/karpathy-agentic-engineering]] — エージェントエンジニアリング（Karpathy提唱・バイブコーディングの先にある専門規律）
+- [[wiki/agent-harness-outside-sandbox]] — エージェントハーネスをサンドボックス外に置く設計論（クレデンシャル保護・耐障害性向上）
 
 ## How-to (17)
 
@@ -248,6 +256,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/copilot-studio-mcp-security]] — Copilot Studio MCP セキュリティ対策（DLPポリシー・URL単位許可）
 - [[wiki/mcp-gateway-google-sa]] — MCP ゲートウェイと Google SA：AI への過剰権限付与を防ぐ 2 層 SA 設計
 - [[wiki/mcp-token-optimization]] — MCPサーバーのトークン消費を70〜90%削減する設計パターン（外部ストレージ退避）
+- [[wiki/claude-code-project-conventions]] — Claude Codeプロジェクト固有コーディング規約の自動抽出スキル（3モード）
+- [[wiki/claude-code-token-reduction-5tips]] — Claude Codeトークン消費を抑える5テクニック（.claudeignore〜選択的読み込み）
 
 ## Reference (5)
 
@@ -353,12 +363,17 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/tech-ceo-ai-avatars]] — テックCEOのAI分身戦略（ザッカーバーグ/ドーシー・権限拡張と統制強化）
 - [[wiki/wall-street-ai-anxiety]] — ウォール街を蝕むAI不安（ダウ800pt下落・AI Psychosis）
 - [[wiki/ai-assistant-internal-trial-2026]] — 社内AIアシスタント3か月試験運用の実録（松尾研究所・75%が週30分短縮）
+- [[wiki/richard-dawkins-claude-consciousness]] — ドーキンスが確信したClaudeの意識と「The Claude Delusion」論争
+- [[wiki/vscode-copilot-coauthor-controversy]] — VS Code Co-authored-by Copilot デフォルト化騒動（372 down vote・同意なき属性付与）
+- [[wiki/ai-professional-displacement]] — AIは専門職まで奪うのか（MIT経済学者の見解・政策処方箋）
+- [[wiki/oscars-ban-ai-performers]] — 米アカデミー賞AI俳優・脚本締め出し規則（人間性の証明が価値を持つ時代）
 
 ## Comparison (3)
 
 - [[wiki/chart-mcp-server-comparison]] — Chart MCP サーバー候補の比較（AntV, ECharts, Vega-Lite, Chart.js）
 - [[wiki/markdown-knowledge-base-tools-comparison]] — Obsidian 代替ツールの比較
 - [[wiki/pptx-generation-comparison]] — PPTX 生成アプローチの4軸比較
+- [[wiki/s3-vectors-vs-opensearch]] — S3 Vectors vs OpenSearch RAGベクトルストア比較（コスト最大200倍差・選択ガイド）
 
 ## Research Reports
 
