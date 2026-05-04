@@ -1,5 +1,36 @@
 # Log
 
+## [2026-05-04] digest | 2026-05-04 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey・OpenAI News・3D人は24時間以内の新規記事なし
+- 直近 24 時間以内の記事から 20 件を選別（Agentic Coding罠論争・Cursor CVSS 9.9・AI数学難問80分解決が主軸）
+- `vault/tags.md` に新タグを追加：`tool/vscode`、`tool/playwright`
+- 新規 raw ファイル 20 件を保存（`vault/raw/2026-05-04-*.md`）
+- 新規 wiki ページ 20 件を作成：
+  - `vault/wiki/agentic-coding-trap.md` — Agentic Codingの罠（スキル衰退47%・ship computer比喩）（concept）
+  - `vault/wiki/deepclaude.md` — DeepClaude（Claude Code × DeepSeek V4 Pro・17倍コスト削減）（entity）
+  - `vault/wiki/agents-skill-design-md-roles.md` — AGENTS.md/SKILL.md/DESIGN.mdの3層役割分担（concept）
+  - `vault/wiki/claude-code-mentoring-aggregation.md` — Claude Codeで育成情報集約→1on1自動化（insight）
+  - `vault/wiki/cursor-cve-2026-26268.md` — Cursor CVE-2026-26268（CVSS 9.9・git cloneでRCE）（entity）
+  - `vault/wiki/bedrock-agentcore-optimization.md` — Bedrock AgentCore Optimization（entity）
+  - `vault/wiki/copilot-studio-tool-evolution.md` — Copilot Studioツール設定進化（entity）
+  - `vault/wiki/playwright-cli-ai-visual-feedback.md` — Playwright CLI × AIエージェント視覚フィードバック（how-to）
+  - `vault/wiki/vscode-1-118.md` — VS Code 1.118（entity）
+  - `vault/wiki/tui-accessibility-nightmare.md` — モダンTUIはアクセシビリティの悪夢（insight）
+  - `vault/wiki/hidden-costs-abstractions.md` — 優れた抽象化の隠れたコスト（concept）
+  - `vault/wiki/ai-agent-enterprise-security-aigis.md` — AIエージェント企業導入セキュリティ（Aigis）（how-to）
+  - `vault/wiki/mgs2-source-code-leak.md` — メタルギアソリッド2ソースコード流出（insight）
+  - `vault/wiki/accenture-nsk-ai-partnership.md` — アクセンチュア×日本精工AI戦略提携（entity）
+  - `vault/wiki/roman-space-telescope.md` — ナンシー・グレース・ローマン宇宙望遠鏡（entity）
+  - `vault/wiki/knowledge-entropy-normative-layer.md` — 知識エントロピーと規範レイヤー（concept）
+  - `vault/wiki/jgsdf-ai-logo-controversy.md` — 陸自AI生成ロゴ炎上事件（insight）
+  - `vault/wiki/ai-solves-erdos-1196.md` — AIが数学者7年の難問を80分で解く（insight）
+  - `vault/wiki/disposable-ui-paradigm.md` — 使い捨てUIパラダイム（concept）
+  - `vault/wiki/aws-security-agent-pentest.md` — AWS Security Agent AIペネトレーションテスト（how-to）
+- ニュースレター `vault/newsletters/2026-05-04.md` を作成（20トピック）
+- `vault/index.md` を更新（Entity +7→179、Concept +5→59、How-to +3→22、Insight +5→102）
+- `vault/log.md` に記録
+
 ## [2026-05-03] digest | 2026-05-03 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey・OpenAI News・3D人は24時間以内の新規記事なし（最新が4/26以前）

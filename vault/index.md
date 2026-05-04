@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (172)
+## Entity (179)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -178,8 +178,15 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/meta-covalen-ai-worker-layoffs]] — Meta/Covalen AIワーカー700人解雇（データアノテーター・自分たちを置き換えるAIを訓練）
 - [[wiki/tsrx-ui-framework]] — TSRX AI時代のUIコンポーネントフレームワーク（AI生成コードが壊れない設計）
 - [[wiki/shivon-zilis-musk-openai]] — シヴォン・ジリス：マスクvsOpenAI裁判のキーパーソン（非公式連絡役の実態）
+- [[wiki/deepclaude]] — DeepClaude（Claude CodeのUIを維持しつつDeepSeek V4 Proに切り替えて17倍コスト削減）
+- [[wiki/cursor-cve-2026-26268]] — Cursor CVE-2026-26268（CVSS 9.9・git cloneでRCE・AIの自律git操作悪用）
+- [[wiki/bedrock-agentcore-optimization]] — Amazon Bedrock AgentCore Optimization（プロンプトをA/Bテストでデータドリブン改善）
+- [[wiki/copilot-studio-tool-evolution]] — Microsoft Copilot Studioツール設定の進化（確認フロー・曖昧性対応追加）
+- [[wiki/vscode-1-118]] — VS Code 1.118（93%キャッシュ再利用・Chronicle・context:fork独立実行）
+- [[wiki/accenture-nsk-ai-partnership]] — アクセンチュア×日本精工（NSK）AI戦略提携（間接業務改革・製造現場自動化）
+- [[wiki/roman-space-telescope]] — ナンシー・グレース・ローマン宇宙望遠鏡（2026年9月打ち上げ・視野100倍・1000倍精度コロナグラフ）
 
-## Concept (54)
+## Concept (59)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -236,8 +243,13 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/claude-code-three-layer-design]] — Claude Code 3層設計パターン（CLAUDE.md/Skills/Agents の責務分離）
 - [[wiki/karpathy-agentic-engineering]] — エージェントエンジニアリング（Karpathy提唱・バイブコーディングの先にある専門規律）
 - [[wiki/agent-harness-outside-sandbox]] — エージェントハーネスをサンドボックス外に置く設計論（クレデンシャル保護・耐障害性向上）
+- [[wiki/agentic-coding-trap]] — Agentic Codingの罠（監督に必要なスキルの喪失・スキル衰退47%・代替アプローチ）
+- [[wiki/hidden-costs-abstractions]] — 優れた抽象化の隠れたコスト（LLM時代の専門知識希薄化）
+- [[wiki/agents-skill-design-md-roles]] — AIに渡す指示書の3層分業（AGENTS.md/SKILL.md/DESIGN.mdの役割分担）
+- [[wiki/knowledge-entropy-normative-layer]] — 知識エントロピーと規範レイヤー（組織出力品質の本質）
+- [[wiki/disposable-ui-paradigm]] — 使い捨てUI（Disposable UI）パラダイム（AIがUIをタスクごとに生成・廃棄）
 
-## How-to (17)
+## How-to (22)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -258,6 +270,9 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/mcp-token-optimization]] — MCPサーバーのトークン消費を70〜90%削減する設計パターン（外部ストレージ退避）
 - [[wiki/claude-code-project-conventions]] — Claude Codeプロジェクト固有コーディング規約の自動抽出スキル（3モード）
 - [[wiki/claude-code-token-reduction-5tips]] — Claude Codeトークン消費を抑える5テクニック（.claudeignore〜選択的読み込み）
+- [[wiki/playwright-cli-ai-visual-feedback]] — Playwright CLI × AIエージェント視覚フィードバック（アノテーション→AI修正）
+- [[wiki/ai-agent-enterprise-security-aigis]] — AIエージェント企業導入セキュリティ対策（Aigis OSS・4段階PII防御）
+- [[wiki/aws-security-agent-pentest]] — AWS Security Agentによる設計レビュー・コードレビュー・ペネトレーションテスト
 
 ## Reference (5)
 
@@ -267,7 +282,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (97)
+## Insight (102)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -367,6 +382,11 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/vscode-copilot-coauthor-controversy]] — VS Code Co-authored-by Copilot デフォルト化騒動（372 down vote・同意なき属性付与）
 - [[wiki/ai-professional-displacement]] — AIは専門職まで奪うのか（MIT経済学者の見解・政策処方箋）
 - [[wiki/oscars-ban-ai-performers]] — 米アカデミー賞AI俳優・脚本締め出し規則（人間性の証明が価値を持つ時代）
+- [[wiki/claude-code-mentoring-aggregation]] — Claude Codeで5名の育成情報集約→1on1下書き自動生成（ソニックガーデン事例）
+- [[wiki/tui-accessibility-nightmare]] — モダンTUIはアクセシビリティの悪夢（React Inkの再描画問題・スクリーンリーダー妨害）
+- [[wiki/mgs2-source-code-leak]] — メタルギアソリッド2ソースコード流出（Armature Studio閉鎖後・30GB以上）
+- [[wiki/jgsdf-ai-logo-controversy]] — 陸自AI生成ロゴ炎上事件（ChatGPTで頭蓋骨ゾウ・3日で使用中止）
+- [[wiki/ai-solves-erdos-1196]] — AIが数学者7年の難問を80分で解く（エルデシュ問題#1196・GPT-5.4 Pro）
 
 ## Comparison (3)
 
