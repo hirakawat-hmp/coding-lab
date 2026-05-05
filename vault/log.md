@@ -1,5 +1,34 @@
 # Log
 
+## [2026-05-05] digest | 2026-05-05 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラー、Publickey は 24 時間以内の新規記事なし
+- 直近 24 時間以内の記事から 19 件を選別（Anthropic×Blackstone新会社・xAI GPU 11%・Claude Code WebFetch Haiku要約・Transformers Succinct が主軸）
+- 新規 raw ファイル 19 件を保存（`vault/raw/2026-05-05-*.md`）
+- 新規 wiki ページ 19 件を作成：
+  - `vault/wiki/anthropic-blackstone-enterprise-ai.md` — Anthropic×Blackstone エンタープライズAI新会社（entity）
+  - `vault/wiki/smb-ai-agent-market-2026.md` — 中堅中小企業向けAIエージェント市場調査（entity）
+  - `vault/wiki/david-silver-ineffable-intelligence.md` — David Silver新会社Ineffable Intelligence（entity）
+  - `vault/wiki/openai-realtime-voice-ai-scale.md` — OpenAI Realtime Voice AI大規模配信（entity）
+  - `vault/wiki/stripe-rubyfmt-25m-lines.md` — Stripe rubyfmt 2500万行一夜フォーマット（insight）
+  - `vault/wiki/sierra-ai-series.md` — Sierra AI $950M調達（entity）
+  - `vault/wiki/claude-code-webfetch-haiku-internals.md` — Claude Code WebFetch Haiku要約の実態（insight）
+  - `vault/wiki/xai-colossus-gpu-mfu.md` — xAI Colossus GPU利用率11%問題（insight）
+  - `vault/wiki/waymo-emergency-responders-regression.md` — Waymo緊急対応後退問題（insight）
+  - `vault/wiki/microsoft-edit-cli-v2.md` — Microsoft Edit CLI v2.0.0（entity）
+  - `vault/wiki/google-cloud-session-expiry-2026.md` — Google Cloudセッション期限変更（entity）
+  - `vault/wiki/irodori-tts.md` — Irodori-TTS 日本語ローカルTTS（entity）
+  - `vault/wiki/claude-code-security-ops-5items.md` — Claude Codeセキュリティ運用5項目（how-to）
+  - `vault/wiki/bun-anthropic-concern.md` — Bun×Anthropicオーナーシップ懸念（insight）
+  - `vault/wiki/us-healthcare-adtech-data-sharing.md` — 米医療データ広告Tech共有（insight）
+  - `vault/wiki/nte-mmd-character-models.md` — NTE MMD Character Models（entity）
+  - `vault/wiki/transformers-inherently-succinct.md` — Transformers Are Inherently Succinct ICLR 2026（concept）
+  - `vault/wiki/agent-skills-addy-osmani.md` — Agent Skills by Addy Osmani（entity）
+  - `vault/wiki/microsoft-edge-password-cleartext.md` — Microsoft Edge パスワード平文メモリ保存（insight）
+- ニュースレター `vault/newsletters/2026-05-05.md` を作成（19 トピック）
+- `vault/index.md` を更新（Entity +10→189、Concept +1→60、How-to +1→23、Insight +7→109）
+- `vault/log.md` に記録
+
 ## [2026-05-04] digest | 2026-05-04 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラーでスキップ、Publickey・OpenAI News・3D人は24時間以内の新規記事なし

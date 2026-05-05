@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (179)
+## Entity (189)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -185,8 +185,18 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/vscode-1-118]] — VS Code 1.118（93%キャッシュ再利用・Chronicle・context:fork独立実行）
 - [[wiki/accenture-nsk-ai-partnership]] — アクセンチュア×日本精工（NSK）AI戦略提携（間接業務改革・製造現場自動化）
 - [[wiki/roman-space-telescope]] — ナンシー・グレース・ローマン宇宙望遠鏡（2026年9月打ち上げ・視野100倍・1000倍精度コロナグラフ）
+- [[wiki/anthropic-blackstone-enterprise-ai]] — Anthropic×Blackstone エンタープライズAI新会社（計15億ドル出資・銀行/保険/製造業向けClaude導入加速）
+- [[wiki/smb-ai-agent-market-2026]] — 中堅・中小企業向けAIエージェント市場調査2026（1位MS Copilot Studio・2位Google Agentspace）
+- [[wiki/david-silver-ineffable-intelligence]] — AlphaGo生みの親David Silver新会社「Ineffable Intelligence」（LLM批判・強化学習自己学習型AI）
+- [[wiki/openai-realtime-voice-ai-scale]] — OpenAI Realtime API大規模低遅延配信技術（200ms以下・ストリーミングパイプライン）
+- [[wiki/sierra-ai-series]] — Sierra AI $950M調達・$15B評価額（顧客体験AIエージェントプラットフォーム・Fortune 50の40%超）
+- [[wiki/microsoft-edit-cli-v2]] — Microsoft Edit CLI v2.0.0（Rust製・構文ハイライト追加・MIT・Linux対応）
+- [[wiki/google-cloud-session-expiry-2026]] — Google Cloudセッション有効期限変更（2026年6月8日から16時間・CI/CD影響あり）
+- [[wiki/irodori-tts]] — Irodori-TTS 日本語特化ローカル音声合成AI（絵文字感情制御・GPU3秒・API課金なし）
+- [[wiki/nte-mmd-character-models]] — NTE Character MMD Models（Neverness to Everness・18体無料配布・PMX形式）
+- [[wiki/agent-skills-addy-osmani]] — Addy Osmani Agent Skills（20スキル・7コマンド・Anti-rationalization機能付きエージェントスキル集）
 
-## Concept (59)
+## Concept (60)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -248,8 +258,9 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/agents-skill-design-md-roles]] — AIに渡す指示書の3層分業（AGENTS.md/SKILL.md/DESIGN.mdの役割分担）
 - [[wiki/knowledge-entropy-normative-layer]] — 知識エントロピーと規範レイヤー（組織出力品質の本質）
 - [[wiki/disposable-ui-paradigm]] — 使い捨てUI（Disposable UI）パラダイム（AIがUIをタスクごとに生成・廃棄）
+- [[wiki/transformers-inherently-succinct]] — Transformers Are Inherently Succinct（ICLR 2026 Outstanding Paper・有限オートマトンより二重指数的に簡潔）
 
-## How-to (22)
+## How-to (23)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -273,6 +284,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/playwright-cli-ai-visual-feedback]] — Playwright CLI × AIエージェント視覚フィードバック（アノテーション→AI修正）
 - [[wiki/ai-agent-enterprise-security-aigis]] — AIエージェント企業導入セキュリティ対策（Aigis OSS・4段階PII防御）
 - [[wiki/aws-security-agent-pentest]] — AWS Security Agentによる設計レビュー・コードレビュー・ペネトレーションテスト
+- [[wiki/claude-code-security-ops-5items]] — AIコーディングツールセキュリティ運用5項目（Cursor CVE事件を契機・.claudeignore〜Hookによるコマンド検証）
 
 ## Reference (5)
 
@@ -282,7 +294,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (102)
+## Insight (109)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -387,6 +399,13 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/mgs2-source-code-leak]] — メタルギアソリッド2ソースコード流出（Armature Studio閉鎖後・30GB以上）
 - [[wiki/jgsdf-ai-logo-controversy]] — 陸自AI生成ロゴ炎上事件（ChatGPTで頭蓋骨ゾウ・3日で使用中止）
 - [[wiki/ai-solves-erdos-1196]] — AIが数学者7年の難問を80分で解く（エルデシュ問題#1196・GPT-5.4 Pro）
+- [[wiki/stripe-rubyfmt-25m-lines]] — Stripe rubyfmt 2500万行Rubyコードを一夜でフォーマット（Rust製ゼロコンフィグ）
+- [[wiki/claude-code-webfetch-haiku-internals]] — Claude Code WebFetchはHaikuが要約している（透明性欠如・3条件でバイパス可）
+- [[wiki/xai-colossus-gpu-mfu]] — xAI Colossus GPU利用率11%問題（55万台保有で6万台分しか活用できず・Meta/Googleの3〜4倍差）
+- [[wiki/waymo-emergency-responders-regression]] — Waymo緊急対応者問題「挙動が後退」（サンフランシスコ当局・CA州7月規制）
+- [[wiki/bun-anthropic-concern]] — Bun×Anthropic買収後の品質劣化懸念（Claude Code品質低下パターンから類推）
+- [[wiki/us-healthcare-adtech-data-sharing]] — 米医療保険マーケットプレイスが市民権・人種データを広告Techに送信（ピクセルトラッカー誤設定）
+- [[wiki/microsoft-edge-password-cleartext]] — Microsoft Edgeが全パスワードをメモリ内に平文保存（Chrome/Firefoxも同構造）
 
 ## Comparison (3)
 
