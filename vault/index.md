@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (189)
+## Entity (194)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -195,8 +195,13 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/irodori-tts]] — Irodori-TTS 日本語特化ローカル音声合成AI（絵文字感情制御・GPU3秒・API課金なし）
 - [[wiki/nte-mmd-character-models]] — NTE Character MMD Models（Neverness to Everness・18体無料配布・PMX形式）
 - [[wiki/agent-skills-addy-osmani]] — Addy Osmani Agent Skills（20スキル・7コマンド・Anti-rationalization機能付きエージェントスキル集）
+- [[wiki/gpt-5-5-instant]] — OpenAI GPT-5.5 Instant新デフォルトモデル（AIME 65.4%→81.2%・Memory Sources機能）
+- [[wiki/anthropic-finance-agents]] — Anthropic 金融サービス向け10種AIエージェントテンプレート（KYC/AML・Claude Opus 4.7推奨）
+- [[wiki/gemma4-mtp-drafters]] — Gemma 4 Multi-Token Prediction Drafters（Speculative Decoding・最大3倍高速化・品質劣化なし）
+- [[wiki/softmatcha-2]] — SoftMatcha 2（1.4兆語コーパスの超高速ファジー検索・中央値0.278秒・従来比600倍）
+- [[wiki/glm-5v-turbo]] — GLM-5V-Turbo マルチモーダルエージェント基盤モデル（視覚を推論コアに統合・77名チーム）
 
-## Concept (60)
+## Concept (62)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -259,8 +264,10 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/knowledge-entropy-normative-layer]] — 知識エントロピーと規範レイヤー（組織出力品質の本質）
 - [[wiki/disposable-ui-paradigm]] — 使い捨てUI（Disposable UI）パラダイム（AIがUIをタスクごとに生成・廃棄）
 - [[wiki/transformers-inherently-succinct]] — Transformers Are Inherently Succinct（ICLR 2026 Outstanding Paper・有限オートマトンより二重指数的に簡潔）
+- [[wiki/requirements-as-executable]] — 要件を動くものにする（5レイヤー分散・決定論的強制＋確率論的ガイダンスの組み合わせ）
+- [[wiki/three-inverse-laws-of-ai]] — AIの三逆原則（非擬人化・非盲従・責任放棄禁止）
 
-## How-to (23)
+## How-to (25)
 
 - [[wiki/claude-code-auto-merge]] — Claude Code GitHub Actions の auto-merge 実装パターン
 - [[wiki/cloud-run-fastapi-deploy]] — Cloud Run + FastAPI デプロイ汎用パターン
@@ -285,6 +292,8 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/ai-agent-enterprise-security-aigis]] — AIエージェント企業導入セキュリティ対策（Aigis OSS・4段階PII防御）
 - [[wiki/aws-security-agent-pentest]] — AWS Security Agentによる設計レビュー・コードレビュー・ペネトレーションテスト
 - [[wiki/claude-code-security-ops-5items]] — AIコーディングツールセキュリティ運用5項目（Cursor CVE事件を契機・.claudeignore〜Hookによるコマンド検証）
+- [[wiki/ai-agent-credential-management]] — AIエージェントへの認証情報の安全な渡し方（4段階セキュリティモデル・1Password vs IAMロール）
+- [[wiki/local-llm-mcp-agent]] — ローカルLLMをMCPサーバーでAIエージェント化する（ゼロコスト・セキュリティリスク注意）
 
 ## Reference (5)
 
@@ -294,7 +303,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (109)
+## Insight (119)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -406,13 +415,24 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/bun-anthropic-concern]] — Bun×Anthropic買収後の品質劣化懸念（Claude Code品質低下パターンから類推）
 - [[wiki/us-healthcare-adtech-data-sharing]] — 米医療保険マーケットプレイスが市民権・人種データを広告Techに送信（ピクセルトラッカー誤設定）
 - [[wiki/microsoft-edge-password-cleartext]] — Microsoft Edgeが全パスワードをメモリ内に平文保存（Chrome/Firefoxも同構造）
+- [[wiki/computer-use-vs-api-cost]] — Computer Use（視覚エージェント）はStructured APIより45倍コスト高（Reflex実測）
+- [[wiki/anthropic-1t-valuation-2026]] — Anthropic $1T評価額でOpenAI超え（セカンダリー市場・233%収益成長）
+- [[wiki/meta-zuckerberg-copyright-infringement]] — Metaザッカーバーグ、AI学習の著作権侵害を「個人的に承認」と出版社が主張
+- [[wiki/rednote-china-overseas-split]] — Rednote（小紅書）が中国・海外プラットフォームを分離（規制対応・データ主権）
+- [[wiki/nick-land-accelerationism]] — ニック・ランドとシリコンバレー加速主義の帰還（アンドリーセン「お気に入りの哲学者」）
+- [[wiki/saizeriya-api-vulnerability-disclosure]] — サイゼリヤAPI脆弱性のIPA通報事例（全国1,500店舗・責任ある開示）
+- [[wiki/claude-hardware-buddy]] — Claude Desktop Hardware Buddy IoT連携（M5Stack BLE接続・手作業の限界）
+- [[wiki/https-ct-log-attack-surface]] — HTTPSドメインはDNS設定後「即」攻撃される（CTログ経由・ボット1,620件 vs 正当27件）
+- [[wiki/tailscale-dns-firewall-issues]] — Tailscaleの技術的問題集（DNS・CGNAT・iptables競合・文句を言いながら使い続ける）
+- [[wiki/palantir-ai-profit-2026q1]] — Palantir 2026年Q1純利益4倍（AI分析・イラン攻撃作戦利用・倫理論争との矛盾）
 
-## Comparison (3)
+## Comparison (5)
 
 - [[wiki/chart-mcp-server-comparison]] — Chart MCP サーバー候補の比較（AntV, ECharts, Vega-Lite, Chart.js）
 - [[wiki/markdown-knowledge-base-tools-comparison]] — Obsidian 代替ツールの比較
 - [[wiki/pptx-generation-comparison]] — PPTX 生成アプローチの4軸比較
 - [[wiki/s3-vectors-vs-opensearch]] — S3 Vectors vs OpenSearch RAGベクトルストア比較（コスト最大200倍差・選択ガイド）
+- [[wiki/docling-vs-markitdown]] — Docling vs MarkItDown GenAI向けドキュメント処理比較（IBM製 vs Microsoft製・セキュリティ vs 多様性）
 
 ## Research Reports
 

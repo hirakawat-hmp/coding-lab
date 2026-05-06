@@ -1,5 +1,36 @@
 # Log
 
+## [2026-05-06] digest | 2026-05-06 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラー、Publickey・3D人は 24 時間以内の新規記事なし
+- `vault/tags.md` に新タグを追加：`industry/finance`（金融業界・フィンテック）、`infra/network`（ネットワーキング・VPN・DNS）
+- 直近 24 時間以内の記事から 20 件を選別（GPT-5.5 Instant・Anthropic金融エージェント・Computer Use 45倍コスト・Anthropic $1T評価が主軸）
+- 新規 raw ファイル 20 件を保存（`vault/raw/2026-05-06-*.md`）
+- 新規 wiki ページ 20 件を作成：
+  - `vault/wiki/gpt-5-5-instant.md` — OpenAI GPT-5.5 Instant新デフォルトモデル（entity）
+  - `vault/wiki/anthropic-finance-agents.md` — Anthropic金融サービス向け10種エージェントテンプレート（entity）
+  - `vault/wiki/computer-use-vs-api-cost.md` — Computer Use 45倍コスト高の実証（insight）
+  - `vault/wiki/anthropic-1t-valuation-2026.md` — Anthropic $1T評価額・OpenAI超え（insight）
+  - `vault/wiki/meta-zuckerberg-copyright-infringement.md` — MetaザッカーバーグAI著作権侵害承認疑惑（insight）
+  - `vault/wiki/gemma4-mtp-drafters.md` — Gemma 4 Multi-Token Prediction Drafters 3倍高速化（entity）
+  - `vault/wiki/ai-agent-credential-management.md` — AIエージェントへの認証情報の安全な渡し方（how-to）
+  - `vault/wiki/requirements-as-executable.md` — 要件を動くものにする設計原則（concept）
+  - `vault/wiki/rednote-china-overseas-split.md` — Rednote中国・海外プラットフォーム分離（insight）
+  - `vault/wiki/nick-land-accelerationism.md` — ニック・ランドとシリコンバレー加速主義の帰還（insight）
+  - `vault/wiki/local-llm-mcp-agent.md` — ローカルLLMをMCPサーバーでAIエージェント化（how-to）
+  - `vault/wiki/saizeriya-api-vulnerability-disclosure.md` — サイゼリヤAPI脆弱性IPA通報事例（insight）
+  - `vault/wiki/claude-hardware-buddy.md` — Claude Desktop Hardware Buddy IoT連携（insight）
+  - `vault/wiki/https-ct-log-attack-surface.md` — HTTPSドメインはDNS設定後即攻撃される（insight）
+  - `vault/wiki/softmatcha-2.md` — SoftMatcha 2 1.4兆語コーパス高速ファジー検索（entity）
+  - `vault/wiki/tailscale-dns-firewall-issues.md` — Tailscaleの技術的問題集（insight）
+  - `vault/wiki/glm-5v-turbo.md` — GLM-5V-Turbo マルチモーダルエージェント基盤モデル（entity）
+  - `vault/wiki/three-inverse-laws-of-ai.md` — AIの三逆原則（concept）
+  - `vault/wiki/docling-vs-markitdown.md` — Docling vs MarkItDown ドキュメント処理比較（comparison）
+  - `vault/wiki/palantir-ai-profit-2026q1.md` — Palantir 2026年Q1純利益4倍（insight）
+- ニュースレター `vault/newsletters/2026-05-06.md` を作成（20 トピック）
+- `vault/index.md` を更新（Entity +5→194、Concept +2→62、How-to +2→25、Insight +10→119、Comparison +1→5）
+- `vault/log.md` に記録
+
 ## [2026-05-05] digest | 2026-05-05 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラー、Publickey は 24 時間以内の新規記事なし
