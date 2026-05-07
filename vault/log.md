@@ -1,5 +1,44 @@
 # Log
 
+## [2026-05-07] digest | 2026-05-07 daily digest
+- RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
+  ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はフィードエラー
+- `vault/tags.md` に新タグを2件追加：`ai/diffusion`（拡散モデル）・`ai/medical`（医療 AI）
+- 直近 24 時間以内の記事から 14 件を選別（Anthropic × SpaceX・xAI → SpaceXAI・Mayo Clinic REDMOD が主軸）
+- 新規 raw ファイル 9 件を保存：
+  - `vault/raw/anthropic-spacex-colossus-2026-05-06.md`
+  - `vault/raw/xai-spacexai-merger-2026-05-07.md`
+  - `vault/raw/aws-uae-region-recovery-2026-05-06.md`
+  - `vault/raw/ai-pancreatic-cancer-redmod-2026-05-06.md`
+  - `vault/raw/vibe-coding-agentic-engineering-2026-05-06.md`
+  - `vault/raw/google-cloud-fraud-defense-2026-05-06.md`
+  - `vault/raw/val-town-better-auth-2026-05-06.md`
+  - `vault/raw/edge-plaintext-passwords-2026-05-06.md`
+  - `vault/raw/unity-ai-open-beta-2026-05-06.md`
+  - `vault/raw/diffusion-flow-maps-2026-05-06.md`
+  - `vault/raw/substance-3d-designer-16-2026-05-06.md`
+  - `vault/raw/gartner-ai-revenue-risk-2026-05-07.md`
+  - `vault/raw/rust-adoption-why-rust-2026-05-06.md`
+  - `vault/raw/google-chrome-148-2026-05-07.md`
+- 新規 wiki ページ 14 件を作成：
+  - `vault/wiki/anthropic-spacex-colossus.md` — Anthropic × SpaceX Colossus 1 コンピュート契約（entity）
+  - `vault/wiki/xai-spacex-ai-division.md` — xAI → SpaceXAI 統合（entity）
+  - `vault/wiki/aws-uae-region-update-2026.md` — AWS UAE リージョン復旧長期化（insight）
+  - `vault/wiki/ai-pancreatic-cancer-redmod.md` — Mayo Clinic REDMOD すい臓がん早期発見 AI（entity）
+  - `vault/wiki/vibe-coding-agentic-convergence.md` — バイブコーディングとアジェンティック・エンジニアリングの境界消滅（insight）
+  - `vault/wiki/google-cloud-fraud-defense.md` — Google Cloud Fraud Defense reCAPTCHA 次世代（entity）
+  - `vault/wiki/val-town-better-auth-migration.md` — Val Town 認証移行の教訓（insight）
+  - `vault/wiki/edge-plaintext-passwords-security.md` — Edge 平文パスワード RAM 展開（insight）
+  - `vault/wiki/unity-ai-open-beta.md` — Unity AI 公式オープンベータ（entity）
+  - `vault/wiki/diffusion-flow-maps.md` — 拡散モデルのフローマップ（concept）
+  - `vault/wiki/substance-3d-designer-16.md` — Substance 3D Designer 16.0（entity）
+  - `vault/wiki/gartner-ai-revenue-risk-2026.md` — Gartner 調査：CEO 28%が AI を収益リスクと認識（insight）
+  - `vault/wiki/rust-adoption-2026.md` — Rust 採用実体験レポート（insight）
+  - `vault/wiki/google-chrome-148.md` — Google Chrome 148 Gemini 統合（entity）
+- ニュースレター `vault/newsletters/2026-05-07.md` を作成（15 トピック）
+- `vault/index.md` を更新（Entity +7→201、Concept +1→63、Insight +6→125）
+- `vault/log.md` に記録
+
 ## [2026-05-06] digest | 2026-05-06 daily digest
 - RSS フィード 11 本を巡回（Hacker News, Publickey, Zenn, Qiita, はてブ, Wired Japan, ITmedia AI+, OpenAI News, Google Cloud Blog, Hugging Face Daily Papers, 3D人）
   ※ Hugging Face Daily Papers は 403 エラー、Google Cloud Blog はページエラー、Publickey・3D人は 24 時間以内の新規記事なし

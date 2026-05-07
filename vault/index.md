@@ -3,7 +3,7 @@
 vault 内の全 wiki ページのカタログ。type 別に分類。
 新規ページを作成したら、該当する type のセクションに追加する。
 
-## Entity (194)
+## Entity (201)
 
 - [[wiki/aaip-architecture]] — AI 駆動マーケティング戦略立案・プレゼン生成システム（AaaS AI Planner）のアーキテクチャ
 - [[wiki/awesome-design-md]] — VoltAgent が公開する有名サービスの DESIGN.md コレクション
@@ -200,8 +200,15 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/gemma4-mtp-drafters]] — Gemma 4 Multi-Token Prediction Drafters（Speculative Decoding・最大3倍高速化・品質劣化なし）
 - [[wiki/softmatcha-2]] — SoftMatcha 2（1.4兆語コーパスの超高速ファジー検索・中央値0.278秒・従来比600倍）
 - [[wiki/glm-5v-turbo]] — GLM-5V-Turbo マルチモーダルエージェント基盤モデル（視覚を推論コアに統合・77名チーム）
+- [[wiki/anthropic-spacex-colossus]] — Anthropic × SpaceX Colossus 1 コンピュート契約・Claude Code レート制限倍増
+- [[wiki/xai-spacex-ai-division]] — xAI の SpaceXAI 統合（Elon Musk 発表・2026年5月）
+- [[wiki/ai-pancreatic-cancer-redmod]] — Mayo Clinic REDMOD：すい臓がんを3年前に73%の精度で検出する AI
+- [[wiki/google-cloud-fraud-defense]] — Google Cloud Fraud Defense（reCAPTCHA 次世代・エージェント型 Web 対応）
+- [[wiki/unity-ai-open-beta]] — Unity AI 公式オープンベータ（AI Assistant・AI Gateway・MCP サーバー）
+- [[wiki/substance-3d-designer-16]] — Substance 3D Designer 16.0（Shape Splatter v2・OpenPBR・3D SDF ノード）
+- [[wiki/google-chrome-148]] — Google Chrome 148（Gemini AI 統合・プロファイルワークフロー簡素化）
 
-## Concept (62)
+## Concept (63)
 
 - [[wiki/ai-pptx-generation-overview]] — AI PPTX 生成の5アプローチ概観（精度・柔軟性・コスト・Claude Code 相性）
 - [[wiki/belief-propagation]] — Judea Pearl の確率伝播アルゴリズム
@@ -257,6 +264,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/google-agi-cognitive-framework]] — Google DeepMind AGI評価フレームワーク（知覚・推論・メタ認知・社会的認知等10の認知能力）
 - [[wiki/claude-code-three-layer-design]] — Claude Code 3層設計パターン（CLAUDE.md/Skills/Agents の責務分離）
 - [[wiki/karpathy-agentic-engineering]] — エージェントエンジニアリング（Karpathy提唱・バイブコーディングの先にある専門規律）
+- [[wiki/diffusion-flow-maps]] — 拡散モデルのフローマップ（Flow Maps）：4ステップで FLUX.1-dev をサンプリングする高速化手法
 - [[wiki/agent-harness-outside-sandbox]] — エージェントハーネスをサンドボックス外に置く設計論（クレデンシャル保護・耐障害性向上）
 - [[wiki/agentic-coding-trap]] — Agentic Codingの罠（監督に必要なスキルの喪失・スキル衰退47%・代替アプローチ）
 - [[wiki/hidden-costs-abstractions]] — 優れた抽象化の隠れたコスト（LLM時代の専門知識希薄化）
@@ -303,7 +311,7 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/aws-service-retirement-2026]] — 2026 年に終了・メンテナンスモード移行する AWS サービス一覧
 - [[wiki/usb-cheat-sheet]] — USB規格完全リファレンス（USB 1.1〜USB4・コネクタ・充電240W）
 
-## Insight (119)
+## Insight (125)
 
 - [[wiki/claude-code-hooks-patterns]] — Claude Code Hooks の実用実装パターン
 - [[wiki/dev-environment-architecture]] — dotfiles/claude-code-config/vault の関心分離
@@ -425,6 +433,12 @@ vault 内の全 wiki ページのカタログ。type 別に分類。
 - [[wiki/https-ct-log-attack-surface]] — HTTPSドメインはDNS設定後「即」攻撃される（CTログ経由・ボット1,620件 vs 正当27件）
 - [[wiki/tailscale-dns-firewall-issues]] — Tailscaleの技術的問題集（DNS・CGNAT・iptables競合・文句を言いながら使い続ける）
 - [[wiki/palantir-ai-profit-2026q1]] — Palantir 2026年Q1純利益4倍（AI分析・イラン攻撃作戦利用・倫理論争との矛盾）
+- [[wiki/aws-uae-region-update-2026]] — AWS UAE リージョン復旧長期化（ドローン攻撃・数カ月かかる見込み・クラウドの地政学リスク）
+- [[wiki/vibe-coding-agentic-convergence]] — バイブコーディングとアジェンティック・エンジニアリングの境界消滅（Simon Willison 観察）
+- [[wiki/val-town-better-auth-migration]] — Val Town の認証遍歴：Supabase→Clerk→Better Auth（Clerk の3つの失敗・教訓）
+- [[wiki/edge-plaintext-passwords-security]] — Microsoft Edge が起動時に全パスワードを平文 RAM 展開（意図的設計・企業環境リスク）
+- [[wiki/gartner-ai-revenue-risk-2026]] — Gartner 調査：CEO 28%が AI を収益モデルへのリスクと認識（世界469社・2026年）
+- [[wiki/rust-adoption-2026]] — Rust 採用の実体験レポート（C++ 移行・LLM が学習曲線を緩和・3つの欠点）
 
 ## Comparison (5)
 
